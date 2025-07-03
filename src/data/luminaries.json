@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Rabindranath Tagore",
+    "imageURL": "/images/rabindra_nath_tagore.jpg",
+    "cardImageURL": "/cardImages/rabindranathtagore_cardImage.jpeg",
+    "description": "Poet, writer, and the first non-European Nobel Laureate in Literature.",
+    "dob": "1861-05-07",
+    "location": "Kolkata, Bengal Presidency, British India",
+    "awards": ["Nobel Prize in Literature (1913)"],
+    "category": "Literature"
+  },
+  {
+    "name": "Swami Vivekananda",
+    "imageUrl": "/images/swami_vivekananda.jpg",
+    "cardImageURL": "/cardImages/vivekananda_cardImage.jpg",
+    "description": "Spiritual leader and philosopher who introduced Vedanta and Yoga to the Western world.",
+    "dob": "1863-01-12",
+    "location": "Kolkata, Bengal Presidency, British India",
+    "awards": ["Legacy as key figure in Indian spiritual revival"],
+    "category": "Spirituality"
+  },
+  {
+    "name": "Satyajit Ray",
+    "imageUrl": "/images/satyajit_ray.jpg",
+    "cardImageURL": "/cardImages/satyajit_cardImage.jpg",
+    "description": "Legendary filmmaker known for the Apu Trilogy and pioneering Indian cinema.",
+    "dob": "1921-05-02",
+    "location": "Kolkata, West Bengal, India",
+    "awards": ["Academy Honorary Award (1992)", "Bharat Ratna (1992)"],
+    "category": "Cinema"
+  },
+  {
+    "name": "Jagadish Chandra Bose",
+    "imageUrl": "/images/jagadish_bose.jpg",
+    "cardImageURL": "/cardImages/jagadish_cardImage.jpg",
+    "description": "Scientist and polymath who pioneered wireless communication and plant physiology.",
+    "dob": "1858-11-30",
+    "location": "Munshiganj, Bengal Presidency, British India",
+    "awards": ["Companion of the Order of the Indian Empire (1903)"],
+    "category": "Science"
+  },
+  {
+    "name": "Subhas Chandra Bose",
+    "imageUrl": "/images/subhash_bose.jpg",
+    "cardImageURL": "/cardImages/subhash_cardImage.jpg",
+    "description": "Indian nationalist and leader of the Indian National Army (INA).",
+    "dob": "1897-01-23",
+    "location": "Cuttack, Bengal Presidency, British India",
+    "awards": ["Posthumous recognition as a freedom fighter"],
+    "category": "Revolutionary"
+  }
+]

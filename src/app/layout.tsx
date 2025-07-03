@@ -24,11 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-[#C9C9B1]">
+      <body>
         <Provider>
           {children}
-        </Provider>
-        
+        </Provider>        
       </body>
     </html>
   );

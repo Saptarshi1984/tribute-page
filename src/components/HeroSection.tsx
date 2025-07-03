@@ -1,13 +1,15 @@
 'use client'
 
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+import { Box, Button } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 
 const HeroPage = () => {
+
+
 
   const images = [
   "/images/rabindra_nath_tagore.jpg",
@@ -31,14 +33,14 @@ const HeroPage = () => {
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 0, disableOnInteraction: false,}}
-        loop
+        loop={true}      
         speed={4000}        
-        spaceBetween={20}
+        spaceBetween={8}
         slidesPerView={3}
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
-            <img src={src} alt={`slide-${index}`} style={{ width: "100%", height: '100%', borderRadius: "12px", objectFit: 'cover', overflow: 'hidden' }} />
+            <img src={src} alt={`slide-${index}`} style={{ width: "100%", height: '100%',  objectFit: 'cover',borderRadius: "8px", overflow: 'hidden' }} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -53,9 +55,10 @@ const HeroPage = () => {
         the lives, legacies, and global impact of Bengal's greatest minds.</p>
     </div>
        
+       <Button>Explore Luminaries</Button>
          
     </div>
   )
 }
 
-export default HeroPage
+export default HeroPage;
