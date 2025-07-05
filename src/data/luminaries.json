@@ -1,7 +1,7 @@
 [
   {
     "name": "Rabindranath Tagore",
-    "imageURL": "/images/rabindra_nath_tagore.jpg",
+    "imageUrl": "/images/rabindra_nath_tagore.jpg",
     "cardImageURL": "/cardImages/rabindranathtagore_cardImage.jpeg",
     "description": "Poet, writer, and the first non-European Nobel Laureate in Literature.",
     "dob": "1861-05-07",
@@ -42,11 +42,192 @@
   {
     "name": "Subhas Chandra Bose",
     "imageUrl": "/images/subhash_bose.jpg",
-    "cardImageURL": "/cardImages/subhash_cardImage.jpg",
+    "cardImageURL": "/cardImages/subhash_chandra_card.jpg",
     "description": "Indian nationalist and leader of the Indian National Army (INA).",
     "dob": "1897-01-23",
     "location": "Cuttack, Bengal Presidency, British India",
     "awards": ["Posthumous recognition as a freedom fighter"],
     "category": "Revolutionary"
+  },
+   {
+    "name": "Satyendranath Bose",
+    "imageURL": "/images/satyen_bose.jpg",
+    "cardImageURL": "/cardImages/satyen_bose_card.jpg",
+    "description": "Pioneer of quantum mechanics, known for Bose-Einstein statistics.",
+    "dob": "1894-01-01",
+    "location": "Kolkata, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Science & Innovations"
+  },
+  {
+    "name": "Rash Behari Bose",
+    "imageURL": "/images/rash_behari_bose.jpg",
+    "cardImageURL": "/cardImages/rashbihari_bose.jpg",
+    "description": "Key revolutionary leader who helped form the Indian National Army in Japan.",
+    "dob": "1886-05-25",
+    "location": "Subaldaha, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Freedom Fighter"
+  },
+  {
+    "name": "Sri Ramakrishna Paramhansa",
+    "imageURL": "/images/ramakrishna.jpg",
+    "cardImageURL": "/cardImages/ramakrishna_card.jpg",
+    "description": "Mystic saint and spiritual teacher of Swami Vivekananda.",
+    "dob": "1836-02-18",
+    "location": "Kamarpukur, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Spiritual Leader"
+  },
+  {
+    "name": "Sri Aurobindo Ghose",
+    "imageURL": "/images/aurobindo_ghosh.jpg",
+    "cardImageURL": "/cardImages/aurobindo_ghosh_card.jpg",
+    "description": "Indian nationalist turned yogi, philosopher, and poet.",
+    "dob": "1872-08-15",
+    "location": "Kolkata, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Philosophy & Revolution"
+  },
+
+  {
+    "name": "Khudiram Bose",
+    "imageURL": "/images/khudiram_bose.jpg",
+    "cardImageURL": "/cardImages/khudiram-bose.jpg",
+    "description": "One of the youngest revolutionaries executed during India's freedom struggle.",
+    "dob": "1889-12-03",
+    "location": "Midnapore, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Revolutionary"
+  },
+  {
+    "name": "Leela Roy",
+    "imageURL": "/images/lila_roy.jpg",
+    "cardImageURL": "/cardImages/leela_roy.jpeg",
+    "description": "Social reformer and revolutionary, co-founder of women's rights movements.",
+    "dob": "1900-10-02",
+    "location": "Goalpara, Assam, British India",
+    "awards": [],
+    "category": "Revolutionary"
+  },
+  {
+    "name": "Matangini Hazra",
+    "imageURL": "/images/matangini_hazra.jpg",
+    "cardImageURL": "/cardImages/matangini_hajra.jpeg",
+    "description": "Elderly activist martyred during the Quit India Movement.",
+    "dob": "1869-10-19",
+    "location": "Tamluk, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Revolutionary"
+  },
+  {
+    "name": "Binay, Badal & Dinesh",
+    "imageURL": "/images/binay_badal_dinesh.jpg",
+    "cardImageURL": "/cardImages/binay_badal_dinesh_card.jpg",
+    "description": "The revolutionary trio behind the Writers' Building attack in 1930.",
+    "dob": "1910-01-01",
+    "location": "Various districts, Bengal Presidency",
+    "awards": [],
+    "category": "Revolutionary"
+  },
+    {
+    "name": "Raja Ram Mohan Roy",
+    "imageURL": "/images/raja_ram_mohan_roy.jpg",
+    "cardImageURL": "/cardImages/raja_ram_mohan_roy.jpg",
+    "description": "Founder of the Brahmo Samaj and a pioneer of Indian social reform and modern education.",
+    "dob": "1772-05-22",
+    "location": "Radhanagar, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Social Reform"
+  },
+  {
+    "name": "Ishwar Chandra Vidyasagar",
+    "imageURL": "/images/ishwar_chandra_vidyasagar.jpeg",
+    "cardImageURL": "/cardImages/ishwar_chandra_card.jpeg",
+    "description": "Key figure in the Bengal Renaissance, champion of women's education and widow remarriage.",
+    "dob": "1820-09-26",
+    "location": "Birsingha, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Social Reform"
+  },
+  {
+    "name": "Bankim Chandra Chattopadhyay",
+    "imageURL": "/images/bankim_chandra_chattopadhyay.jpg",
+    "cardImageURL": "/cardImages/bankim_card.jpg",
+    "description": "Author of 'Vande Mataram', novelist and key figure in Bengali literature and nationalism.",
+    "dob": "1838-06-27",
+    "location": "Naihati, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Literature"
+  },
+  {
+    "name": "Sarat Chandra Chattopadhyay",
+    "imageURL": "/images/sarat_chandra_chattopadhyay.jpg",
+    "cardImageURL": "/cardImages/sarat_chandra.jpeg",
+    "description": "One of the most popular Bengali novelists, known for his realistic depiction of society.",
+    "dob": "1876-09-15",
+    "location": "Debanandapur, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Literature"
+  },
+  {
+    "name": "Master Da Surya Sen",
+    "imageURL": "/images/surya_sen.jpg",
+    "cardImageURL": "/cardImages/masterda-surya-sen.jpg",
+    "description": "Revolutionary leader of the Chittagong Armoury Raid against British rule.",
+    "dob": "1894-03-22",
+    "location": "Noapara, Chittagong, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Freedom Fighter"
+  },
+  {
+    "name": "Bagha Jatin",
+    "imageURL": "/images/bagha_jatin.jpg",
+    "cardImageURL": "/cardImages/bagha_jatin.jpg",
+    "description": "Courageous revolutionary leader known for his fierce resistance against British forces.",
+    "dob": "1879-12-07",
+    "location": "Koya, Nadia district, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Freedom Fighter"
+  },
+    {
+    "name": "Radhabinod Pal",
+    "imageURL": "/images/radhabinod_pal.jpg",
+    "cardImageURL": "/cardImages/radhabinod_paul_card.jpg",
+    "description": "Indian jurist known for his dissenting judgment at the Tokyo War Crimes Tribunal after World War II.",
+    "dob": "1886-01-27",
+    "location": "Kushtia, Bengal Presidency, British India (now Bangladesh)",
+    "awards": [],
+    "category": "Law & Justice"
+  },
+  {
+    "name": "Kazi Nazrul Islam",
+    "imageURL": "/images/kazi_nazrul_islam.jpg",
+    "cardImageURL": "/cardImages/najrul_islam_card.jpeg",
+    "description": "Revolutionary poet, writer, and musician known as the 'Rebel Poet' of Bengal.",
+    "dob": "1899-05-24",
+    "location": "Churulia, Bengal Presidency, British India",
+    "awards": ["Jagattarini Gold Medal (1945)"],
+    "category": "Literature & Music"
+  },
+  {
+    "name": "Sukumar Ray",
+    "imageURL": "/images/sukumar_ray.jpg",
+    "cardImageURL": "/cardImages/sukumar_ray_card.jpeg",
+    "description": "Bengali author and poet famous for his nonsense literature and children's classics like 'Abol Tabol'.",
+    "dob": "1887-10-30",
+    "location": "Kolkata, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Literature & Children's Writing"
+  },
+  {
+    "name": "Michael Madhusudan Dutt",
+    "imageURL": "/images/michael_madhusudan_dutt.jpg",
+    "cardImageURL": "/cardImages/madhusudan_dutt_card.jpg",
+    "description": "Pioneer of Bengali blank verse and a key figure in the Bengal Renaissance.",
+    "dob": "1824-01-25",
+    "location": "Sagardari, Bengal Presidency, British India",
+    "awards": [],
+    "category": "Literature"
   }
 ]

@@ -4,11 +4,13 @@ import React from 'react';
 import { Box, Button } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { useRouter } from 'next/navigation';
 import "swiper/css";
 
 
 const HeroPage = () => {
 
+  const router = useRouter();
 
 
   const images = [
@@ -55,7 +57,7 @@ const HeroPage = () => {
         the lives, legacies, and global impact of Bengal's greatest minds.</p>
     </div>
        
-       <Button>Explore Luminaries</Button>
+       <Button onClick={() => router.push('/Luminaries') } >Explore Luminaries</Button>
          
     </div>
   )

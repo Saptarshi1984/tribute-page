@@ -1,5 +1,7 @@
 import React from 'react'
-import { Button, Card, Image, Text } from "@chakra-ui/react";
+import { useRouter } from 'next/navigation';
+import { Button, Card, Text, Image, AspectRatio } from "@chakra-ui/react";
+import Link from 'next/link';
 
 interface ProfileCardProps {
   cardImageURL:string;  
@@ -9,14 +11,18 @@ interface ProfileCardProps {
 }
 
 const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardProps) => {
+
   return (
     <div>
         <Card.Root maxW="sm" overflow="hidden">
+          <AspectRatio ratio = {4/3}>
       <Image
+       w ='sm'
         src={cardImageURL}
         alt={name}
-        objectFit={'cover'}
+        objectFit='cover'
       />
+      </AspectRatio>
       <Card.Body gap="2">
         <Card.Title>{name}</Card.Title>
         <Card.Description>
@@ -27,8 +33,9 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
         </Text>
       </Card.Body>
       <Card.Footer gap="2">
-        <Button variant="solid">Read More</Button>
-        {/* <Button variant="ghost">Add to cart</Button> */}
+         <Link href={`/Biodata?name=${encodeURIComponent(name)}`} passHref>
+        <Button variant="solid">Know More</Button>
+        </Link>
       </Card.Footer>
     </Card.Root>
       
