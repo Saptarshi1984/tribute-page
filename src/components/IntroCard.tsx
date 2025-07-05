@@ -11,7 +11,7 @@ const IntroCard = ({imageUrl, name, description}:IntroCardProps) => {
   return (
     <div>
 
-         <Card.Root flexDirection="row" overflow="hidden" maxW="4xl">
+    <Card.Root flexDirection="row" overflow="hidden" maxW="4xl">
     <Image
       objectFit="cover"
       maxW="200px"
