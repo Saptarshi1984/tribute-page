@@ -1,7 +1,10 @@
+'use client'
 import React from 'react'
 import { useRouter } from 'next/navigation';
 import { Button, Card, Text, Image, AspectRatio } from "@chakra-ui/react";
 import Link from 'next/link';
+import { motion } from 'framer-motion';
+
 
 interface ProfileCardProps {
   cardImageURL:string;  
@@ -13,7 +16,12 @@ interface ProfileCardProps {
 const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardProps) => {
 
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+    >
         <Card.Root maxW="sm" overflow="hidden">
           <AspectRatio ratio = {4/3}>
       <Image
@@ -39,7 +47,7 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
       </Card.Footer>
     </Card.Root>
       
-    </div>
+    </motion.div>
   )
 }
 
