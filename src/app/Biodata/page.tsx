@@ -46,7 +46,6 @@ const Biodata = () => {
       </Tabs.Content>
       <Tabs.Content value="second">Second panel</Tabs.Content>
       </Tabs.Root>
-
         </div>   
         
       </div>
