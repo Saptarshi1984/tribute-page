@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import ButttonPrimary from './ButttonPrimary'
 
 const LanguageSection = () => {
   return (
@@ -22,7 +23,12 @@ const LanguageSection = () => {
           celebrates intellect, emotion, and artistic freedom. Whether you're exploring Tagore’s verses or 
           understanding the rhythm of Bengali folk songs, the language becomes a key to experiencing the spirit 
           of Bengal in its truest form.</p>
+
+          <ButttonPrimary btnText='Learn Bengali' src='/LearnBengali' />
+          
         </div>
+
+        
       
     </div>
   )

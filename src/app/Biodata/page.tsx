@@ -5,7 +5,7 @@ import { useState } from 'react';
 import luminaries from '@/data/luminaries.json';
 import { useSearchParams } from 'next/navigation';
 import { Text, Tabs } from '@chakra-ui/react';
-import Navbar from '@/components/NavBar';
+import Navbar from '@/components/Navbar';
 import { Prose } from "@/components/ui/prose";
 
 
@@ -44,7 +44,7 @@ const Biodata = () => {
         <Prose maxW='840px' border='solid 1px gray' padding='1rem' rounded='8px'  dangerouslySetInnerHTML={{ __html: person.LifeStory}} />
 
       </Tabs.Content>
-      <Tabs.Content value="second">Second panel</Tabs.Content>
+      <Tabs.Content value="second">You are in Gallery.</Tabs.Content>
       </Tabs.Root>
         </div>   
         

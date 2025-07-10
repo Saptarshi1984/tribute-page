@@ -1,6 +1,6 @@
 'use client'
 
-import Navbar from '@/components/NavBar';
+import Navbar from '@/components/Navbar';
 import ProfileCard from '@/components/ProfileCard';
 import luminaries from '@/data/luminaries.json';
 import { SimpleGrid } from '@chakra-ui/react';

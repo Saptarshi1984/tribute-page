@@ -1,0 +1,90 @@
+[
+    {
+        "mainHeading": "A Vibrant Culture",
+        "mainImgSrc": "/tourism/tourism.jpg",
+        "mainText": "Here is the text",
+        "festivalRow": [
+                 {
+                    "rowHeading": "Festivals",
+                    "festivals": [
+                        {
+                            "festivalName": "Durga Puja",
+                            "festivalImage": "/culture/durga_puja.jpg",
+                            "festivalText": "You are here"
+                        },
+
+                        {
+                            "festivalName": "Poila Boishak",
+                            "festivalImage": "/culture/poila_boishak.png",
+                            "festivalText": "You are here"
+                        },
+
+                        {
+                            "festivalName": "Dol Purnima",
+                            "festivalImage": "/culture/dol_purnima.jpg",
+                            "festivalText": "You are here"
+                        },
+
+                        {
+                            "festivalName": "Dipavali",
+                            "festivalImage": "/culture/dipavali.jpg",
+                            "festivalText": "You are here"
+                        }
+                    ]
+                 }
+        ],
+
+        "musicRow": [
+            {
+                "rowHeading": "Misic",
+                "musicCategory": [
+                    {
+                        "musicName": "Rabindra Sangeet",
+                        "musicImage": "image_path",
+                        "musicText": "some_text"
+                    },
+
+                    {
+                        "musicName": "Baul",
+                        "musicImage": "image_path",
+                        "musicText": "some_text"
+                    },
+
+                    {
+                        "musicName": "Folk Song",
+                        "musicImage": "image_path",
+                        "musicText": "some_text"
+                    }
+                ]
+            }
+        ],
+
+        "foodRow": [
+            {
+                "rowHeading": "Authentic Bengali Cousines",
+                "foodCategory": [
+                    {
+                        "foodName": "Macher Jhol",
+                        "foodImage": "/culture/fish_curry.jpg",
+                        "foodText": "some_text"
+                    },
+
+                    {
+                        "foodName": "Rosogolla",
+                        "foodImage": "/culture/rosogolla.jpg",
+                        "foodText": "some_text"
+
+                    },
+
+                    {
+                        "foodName": "Misti Doi",
+                        "foodImage": "/culture/misti_doi.jpg",
+                        "foodText": "some_text"
+                    }
+                    
+                ]
+            }
+        ]
+
+    }
+]

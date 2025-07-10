@@ -1,11 +1,21 @@
 import React from 'react'
+import ButttonPrimary from './ButttonPrimary'
+import Image from 'next/image'
 
 const CultureSection = () => {
   return (
     <div>
 
         <div className='w-auto !flex flex-col gap-6 !justify-around items-center h-screen'>
-        <h1 className='!text-8xl'>The Cultural</h1>
+        <h1 className='!text-8xl'>The Culture</h1>
+
+        <Image 
+                 src='/oth/bengali_culture.png'
+                 alt='learn_bengali'
+                 width={800}
+                 height={600}                   
+                  />
+
         <p className='w-[50%] !text-2xl text-gray-400 text-justify '>Bengali culture is a vibrant 
             tapestry woven from centuries of tradition, intellect, and artistic brilliance. From the 
             soulful strains of Rabindra Sangeet to the grandeur of Durga Puja, from the poetic depths 
@@ -14,6 +24,8 @@ const CultureSection = () => {
             harmonious blend of ancient heritage and modern thought. Rich in language, philosophy, and art, 
             Bengali culture is not just a regional identity—it is a profound expression of creativity, 
             resilience, and humanity.</p>
+
+            <ButttonPrimary btnText='Explore Culture' src='/Culture' />
         </div>
       
     </div>

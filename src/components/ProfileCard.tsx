@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
-import { useRouter } from 'next/navigation';
-import { Button, Card, Text, Image, AspectRatio } from "@chakra-ui/react";
+import { Card, Text, Image, AspectRatio } from "@chakra-ui/react";
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import ButttonPrimary from './ButttonPrimary';
 
 
 interface ProfileCardProps {
@@ -23,7 +23,7 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
         <Card.Root maxW="sm" overflow="hidden">
-          <AspectRatio ratio = {4/3}>
+      <AspectRatio ratio = {4/3}>
       <Image
        w ='sm'
         src={cardImageURL}
@@ -41,8 +41,8 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
         </Text>
       </Card.Body>
       <Card.Footer gap="2">
-         <Link href={`/Biodata?name=${encodeURIComponent(name)}`} passHref>
-        <Button variant="solid">Know More</Button>
+         <Link href={`/Biodata?name=${encodeURIComponent(name)}`} passHref>          
+          <ButttonPrimary btnText='Know More' src='' />        
         </Link>
       </Card.Footer>
     </Card.Root>

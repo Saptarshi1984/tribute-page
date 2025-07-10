@@ -3,6 +3,7 @@ import React from 'react'
 import { Box } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import ButttonPrimary from './ButttonPrimary';
 
 const images = [
   '/oth/kolkata_city.png',
@@ -16,7 +17,7 @@ const images = [
 const TourismSection = () => {
   return (
     <div>
-        <div className='w-auto !flex flex-col gap-6 !justify-around items-center h-screen'>
+        <div className='w-auto !flex flex-col gap-4 !justify-around items-center h-screen'>
         <h1 className='!text-8xl'>Places you must visit.</h1>
         <p className='w-[50%] !text-2xl text-gray-400 text-justify '>West Bengal offers a rich tapestry of 
             tourist destinations that reflect its deep cultural heritage and historical legacy. From the 
@@ -29,7 +30,7 @@ const TourismSection = () => {
             tourist spots offer an immersive journey into the soul of Bengal’s history, art, and spiritual 
             essence.</p>
 
-            <Box w="1200px" h='500px'  mx="auto" mt={10} overflow='hidden'>
+            <Box w="1200px" h='auto'  mx="auto" mt={10} overflow='hidden'>
                   <Swiper
                     modules={[Autoplay]}
                     autoplay={{ delay: 0, disableOnInteraction: false,}}
@@ -45,7 +46,11 @@ const TourismSection = () => {
                     ))}
                   </Swiper>
                 </Box>
+
+                <ButttonPrimary btnText='Explore Places' src='/Tourism' />
         </div>
+
+        
       
     </div>
   )
