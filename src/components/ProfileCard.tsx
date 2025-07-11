@@ -22,10 +22,10 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-        <Card.Root maxW="sm" overflow="hidden">
+      <Card.Root maxW="sm" overflow="hidden">
       <AspectRatio ratio = {4/3}>
       <Image
-       w ='sm'
+        w ='sm'
         src={cardImageURL}
         alt={name}
         objectFit='cover'
@@ -45,8 +45,7 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
           <ButttonPrimary btnText='Know More' src='' />        
         </Link>
       </Card.Footer>
-    </Card.Root>
-      
+    </Card.Root>      
     </motion.div>
   )
 }

@@ -41,7 +41,7 @@ const Biodata = () => {
 
       <Tabs.Content value="first">        
 
-        <Prose maxW='840px' border='solid 1px gray' padding='1rem' rounded='8px'  dangerouslySetInnerHTML={{ __html: person.LifeStory}} />
+        <Prose maxW='840px' border='solid 1px gray' padding='1rem' rounded='8px'  dangerouslySetInnerHTML={{ __html: person.LifeStory as string}} />
 
       </Tabs.Content>
       <Tabs.Content value="second">You are in Gallery.</Tabs.Content>

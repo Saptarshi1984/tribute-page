@@ -40,8 +40,10 @@ const Luminaries = () => {
 
   return (
 
-    <div className='flex flex-col gap-4 items-center'>
-      <Navbar/>
+    <div className='flex flex-col gap-4 items-center '>
+      
+       <Navbar/>     
+      
       <div className='flex flex-row justify-between items-center gap-4 w-[60%] m-auto'>
         <SelectCategory value={selectedCategory} onChange={setSelectedCategory} />
         <div className='w-[300px]'>     
@@ -69,4 +71,4 @@ const Luminaries = () => {
   )
 }
 
-export default Luminaries;
+export default Luminaries

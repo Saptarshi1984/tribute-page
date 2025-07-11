@@ -9,10 +9,8 @@ import LanguageSection from "@/components/LanguageSection";
 export default function Home() {
   return (
 
-    <div className="flex flex-col ">
-    <nav>
-      <Navbar/>
-    </nav>
+    <div className="flex flex-col ">    
+      <Navbar/>    
     <main >
  {/* Section 1 */}
   <section className="relative w-full " style={{ height: 'calc(100vh - 40px)' }}>

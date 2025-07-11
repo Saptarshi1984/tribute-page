@@ -11,15 +11,14 @@ const page = () => {
   return (
     <div>
 
-        <div      
-    className='w-[100%] h-screen flex flex-col gap-[4rem] items-center justify-around '>
+        <div  className='w-[100%] h-screen flex flex-col gap-[4rem] items-center justify-around '>
       <Navbar />
       {tourism.map((row, i) => (
         <div key={i} className='flex flex-col gap-4 items-center'>          
          
           <Image
             className='rounded-xl'
-            alt='culture_main_image'
+            alt='tourism_main_image'
             src={row.mainImgSrc}
             width={1000}
             height={400}

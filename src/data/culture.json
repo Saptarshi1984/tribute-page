@@ -36,17 +36,17 @@
 
         "musicRow": [
             {
-                "rowHeading": "Misic",
+                "rowHeading": "Music",
                 "musicCategory": [
                     {
                         "musicName": "Rabindra Sangeet",
-                        "musicImage": "image_path",
+                        "musicImage": "/culture/rabindra_sangeet.jpeg",
                         "musicText": "some_text"
                     },
 
                     {
                         "musicName": "Baul",
-                        "musicImage": "image_path",
+                        "musicImage": "/culture/baul_song.jpg",
                         "musicText": "some_text"
                     },
 
@@ -71,7 +71,7 @@
 
                     {
                         "foodName": "Rosogolla",
-                        "foodImage": "/culture/rosogolla.jpg",
+                        "foodImage": "/culture/rosogolla.jpeg",
                         "foodText": "some_text"
 
                     },

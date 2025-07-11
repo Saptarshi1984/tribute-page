@@ -1,33 +1,33 @@
 [
     {
-        "mainHeading": "A Vibrant Culture",
-        "mainImgSrc": "/tourism/tourism.jpg",
+        "mainHeading": "Places to visit",
+        "mainImgSrc": "/tourism/kanchanjungha.png",
         "mainText": "Here is the text",
         "festivalRow": [
                  {
-                    "rowHeading": "Festivals",
+                    "rowHeading": "Most Popular Places",
                     "festivals": [
                         {
-                            "festivalName": "Durga Puja",
-                            "festivalImage": "/culture/durga_puja.jpg",
+                            "festivalName": "Kolkata City",
+                            "festivalImage": "/tourism/kolkata.jpg",
                             "festivalText": "You are here"
                         },
 
                         {
-                            "festivalName": "Poila Boishak",
-                            "festivalImage": "/culture/poila_boishak.png",
+                            "festivalName": "Darjeeling",
+                            "festivalImage": "/tourism/darjeeling.jpg",
                             "festivalText": "You are here"
                         },
 
                         {
-                            "festivalName": "Dol Purnima",
-                            "festivalImage": "/culture/dol_purnima.jpg",
+                            "festivalName": "Sunderbans",
+                            "festivalImage": "/tourism/sunderbans.jpg",
                             "festivalText": "You are here"
                         },
 
                         {
-                            "festivalName": "Dipavali",
-                            "festivalImage": "/culture/dipavali.jpg",
+                            "festivalName": "Shantiniketan",
+                            "festivalImage": "/tourism/shantiniketan.jpeg",
                             "festivalText": "You are here"
                         }
                     ]
@@ -36,23 +36,29 @@
 
         "musicRow": [
             {
-                "rowHeading": "Misic",
+                "rowHeading": "Spot for Long Drive",
                 "musicCategory": [
                     {
-                        "musicName": "Rabindra Sangeet",
-                        "musicImage": "image_path",
+                        "musicName": "Digha",
+                        "musicImage": "/tourism/digha.jpg",
                         "musicText": "some_text"
                     },
 
                     {
-                        "musicName": "Baul",
-                        "musicImage": "image_path",
+                        "musicName": "Mandarmoni",
+                        "musicImage": "/tourism/mandarmoni.jpg",
                         "musicText": "some_text"
                     },
 
                     {
-                        "musicName": "Folk Song",
-                        "musicImage": "image_path",
+                        "musicName": "Bakkhali",
+                        "musicImage": "/tourism/bakkhali.jpeg",
+                        "musicText": "some_text"
+                    },
+
+                    {
+                        "musicName": "ISKON - Mayapur",
+                        "musicImage": "/tourism/mayapur.jpg",
                         "musicText": "some_text"
                     }
                 ]
@@ -61,24 +67,36 @@
 
         "foodRow": [
             {
-                "rowHeading": "Authentic Bengali Cousines",
+                "rowHeading": "Kolkata Sightseeing",
                 "foodCategory": [
                     {
-                        "foodName": "Macher Jhol",
-                        "foodImage": "/culture/fish_curry.jpg",
+                        "foodName": "Victoria Memorial ",
+                        "foodImage": "/tourism/victoria_memorial.jpg",
                         "foodText": "some_text"
                     },
 
                     {
-                        "foodName": "Rosogolla",
-                        "foodImage": "/culture/rosogolla.jpg",
+                        "foodName": "Alipur Zoo",
+                        "foodImage": "/tourism/alipur_zoo.jpg",
                         "foodText": "some_text"
 
                     },
 
                     {
-                        "foodName": "Misti Doi",
-                        "foodImage": "/culture/misti_doi.jpg",
+                        "foodName": "Jorashanko Thakurbari",
+                        "foodImage": "/tourism/jorashanko_thakurbari.jpg",
+                        "foodText": "some_text"
+                    },
+
+                    {
+                        "foodName": "Kolkata Maidan",
+                        "foodImage": "/tourism/kolkata_maidan.jpg",
+                        "foodText": "some_text"
+                    },
+
+                    {
+                        "foodName": "Princep Ghat",
+                        "foodImage": "/tourism/princep_ghat.jpg",
                         "foodText": "some_text"
                     }
                     
