@@ -1,29 +1,27 @@
-'use client'
-
-import Navbar from '@/components/Navbar'
 import React from 'react'
 import { SimpleGrid, Heading } from '@chakra-ui/react'
-import Image from 'next/image'
-import tourism from '@/data/tourism.json';
 import DisplayCard from '@/components/DisplayCard';
+import { getTourismsData } from '../utils/data';
 
-const page = () => {
+const TourismPage = async () => {
+
+  const tourismData =  getTourismsData();
   return (
     <div>
 
         <div  className='w-[100%] h-screen flex flex-col gap-[4rem] items-center justify-around '>
-      <Navbar />
-      {tourism.map((row, i) => (
-        <div key={i} className='flex flex-col gap-4 items-center'>          
+      
+      {tourismData.map((row, i) => (
+        <div key={i} className='w-[50%] flex flex-col gap-4 items-center !my-4'>          
          
-          <Image
+          {/* <Image
             className='rounded-xl'
             alt='tourism_main_image'
             src={row.mainImgSrc}
             width={1000}
-            height={400}
-            objectFit='cover'                        
-          />      
+            height={400}            
+            priority                       
+          />  */}     
 
           {/* FESTIVALS SECTION */}
           {row.festivalRow.map((festivalBlock, j) => (
@@ -87,4 +85,4 @@ const page = () => {
   )
 }
 
-export default page
+export default TourismPage

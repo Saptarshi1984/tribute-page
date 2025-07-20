@@ -1,7 +1,7 @@
 [
     {
         "mainHeading": "A Vibrant Culture",
-        "mainImgSrc": "/culture/bengali_culture.png",
+        "mainImgSrc": "/culture/culture.png",
         "mainText": "Here is the text",
         "festivalRow": [
                  {
@@ -52,7 +52,7 @@
 
                     {
                         "musicName": "Folk Song",
-                        "musicImage": "image_path",
+                        "musicImage": "/culture/baul_song.jpg",
                         "musicText": "some_text"
                     }
                 ]

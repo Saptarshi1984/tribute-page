@@ -1,10 +1,11 @@
 'use client'
+
 import React from 'react'
 import { Box} from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import { useRouter } from 'next/navigation';
 import ButttonPrimary from './ButttonPrimary';
+import "swiper/css";
 
   const images = [
   "/images/rabindra_nath_tagore.jpg",
@@ -19,7 +20,6 @@ import ButttonPrimary from './ButttonPrimary';
 
 const PeopleSection = () => {
 
-    const router = useRouter();
 
   return (
     <div>
@@ -48,7 +48,7 @@ const PeopleSection = () => {
     </Box>
 
     <div>        
-        <ButttonPrimary btnText='Explore Luminaries' src='/Luminaries' />
+        <ButttonPrimary btnText='Explore Luminaries' src='/People' />
     </div>
      
     </div>

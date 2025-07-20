@@ -1,6 +1,5 @@
 import React from 'react'
 import ButttonPrimary from './ButttonPrimary'
-import Image from 'next/image'
 
 const CultureSection = () => {
   return (
@@ -9,9 +8,9 @@ const CultureSection = () => {
         <div className='w-auto !flex flex-col gap-6 !justify-around items-center h-screen'>
         <h1 className='!text-8xl'>The Culture</h1>
 
-        <Image 
+                <img
                  src='/oth/bengali_culture.png'
-                 alt='learn_bengali'
+                 alt='bengali_culture'
                  width={800}
                  height={600}                   
                   />

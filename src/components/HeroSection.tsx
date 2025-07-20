@@ -2,22 +2,25 @@
 
 import React from 'react';
 import Image from 'next/image';
-import "swiper/css";
+import { AspectRatio } from '@chakra-ui/react';
 
 
-const HeroPage = () => {
+const HeroSection = () => {
 
   return (
 
-    <div>      
-        <Image
+    <> 
+        <AspectRatio ratio={4/2}> 
+        <img
               src="/oth/hero_image.png"
-              alt="Responsive image"    
-              fill
-              className='object-cover'              
-        />  
-    </div>
+              alt="Hero_image"                          
+              className='object-cover'
+              width='auto'
+              height='auto'                                      
+        /> 
+        </AspectRatio>   
+    </>
   )
 }
 
-export default HeroPage;
+export default HeroSection;

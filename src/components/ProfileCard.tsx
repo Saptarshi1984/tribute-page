@@ -6,14 +6,17 @@ import { motion } from 'framer-motion';
 import ButttonPrimary from './ButttonPrimary';
 
 
+
 interface ProfileCardProps {
+
   cardImageURL:string;  
   name: string;
   description: string;
   category: string;
+  slug: string;
 }
 
-const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardProps) => {
+const ProfileCard = ({cardImageURL, name, description, category, slug }:ProfileCardProps) => {
 
   return (
     <motion.div
@@ -41,7 +44,8 @@ const ProfileCard = ({cardImageURL, name, description, category }:ProfileCardPro
         </Text>
       </Card.Body>
       <Card.Footer gap="2">
-         <Link href={`/Biodata?name=${encodeURIComponent(name)}`} passHref>          
+        {/* {`/Biodata?name=${encodeURIComponent(name)}`} */}
+         <Link href={`People/${slug}`}>          
           <ButttonPrimary btnText='Know More' src='' />        
         </Link>
       </Card.Footer>

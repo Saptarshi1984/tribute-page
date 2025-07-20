@@ -1,31 +1,31 @@
-'use client'
-
-import Navbar from '@/components/Navbar'
 import React from 'react'
 import { SimpleGrid, Heading } from '@chakra-ui/react'
-import culture from '@/data/culture.json';
+import { getCultureData } from '../utils/data';
 import DisplayCard from '@/components/DisplayCard';
-import Image from 'next/image';
 
-const page = () => {
-  
+
+const CulturePage = async ()  => {
+
+  const cultureData =  getCultureData();
+
   return (
+    
     <div>
 
-      <div  className='w-[100%] h-screen flex flex-col gap-[4rem] items-center justify-around '>
-      <Navbar />
-      {culture.map((row, i) => (
-        <div key={i} className='flex flex-col gap-4 items-center'> 
-
-             <Image
-                    className='rounded-xl'
-                    alt='culture_main_image'
-                    src={row.mainImgSrc}
-                    width={1000}
-                    height={400}
-                    objectFit='cover'                        
-                  />   
+        <div  className='w-[100%] h-screen flex flex-col gap-[4rem] items-center justify-around !my-4 '>
+      
+      {cultureData.map((row, i)  => (
+        <div key={i} className='w-[50%] flex flex-col gap-4 items-center'>          
          
+          {/* <Image
+            className='rounded-xl w-auto h-auto'
+            alt='culture_image'
+            src={row.mainImgSrc}
+            width={1000}
+            height={400}            
+            priority                        
+          />  */}     
+          
           {/* FESTIVALS SECTION */}
           {row.festivalRow.map((festivalBlock, j) => (
             <div key={j} className='w-full px-10 flex flex-col gap-4'>
@@ -88,4 +88,4 @@ const page = () => {
   )
 }
 
-export default page
+export default CulturePage

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { Card, Image, AspectRatio, Text} from "@chakra-ui/react"
 import Link from 'next/link';
@@ -23,7 +24,7 @@ const DisplayCard = ({cardName, cardDescription, imageSrc, imageName}: DisplayCa
           <Card.Root maxW="sm" overflow="hidden">
           <AspectRatio ratio = {4/3}>
           <Image
-            w="sm"            
+            w={'sm'}        
             src={imageSrc}
             alt={imageName}
             objectFit='cover'

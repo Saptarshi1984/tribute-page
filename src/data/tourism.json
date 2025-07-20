@@ -3,6 +3,7 @@
         "mainHeading": "Places to visit",
         "mainImgSrc": "/tourism/kanchanjungha.png",
         "mainText": "Here is the text",
+        
         "festivalRow": [
                  {
                     "rowHeading": "Most Popular Places",
@@ -36,7 +37,7 @@
 
         "musicRow": [
             {
-                "rowHeading": "Spot for Long Drive",
+                "rowHeading": "Beaches",
                 "musicCategory": [
                     {
                         "musicName": "Digha",

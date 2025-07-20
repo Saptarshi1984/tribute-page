@@ -1,6 +1,7 @@
 [
   {
     "name": "Rabindranath Tagore",
+    "slug": "rabindra_nath_tagore",
     "imageUrl": "/images/rabindra_nath_tagore.jpg",
     "cardImageURL": "/cardImages/rabindranathtagore_cardImage.jpeg",
     "description": "Poet, writer, and the first non-European Nobel Laureate in Literature.",
@@ -13,6 +14,7 @@
   },
   {
     "name": "Swami Vivekananda",
+    "slug": "swami_vivekananda",
     "imageUrl": "/images/swami_vivekananda.jpg",
     "cardImageURL": "/cardImages/swami_vivekananda_card.png",
     "description": "Spiritual leader and philosopher who introduced Vedanta and Yoga to the Western world.",
@@ -24,6 +26,7 @@
   },
   {
     "name": "Satyajit Ray",
+    "slug": "satyajit_ray",
     "imageUrl": "/images/satyajit_ray.jpg",
     "cardImageURL": "/cardImages/satyajit_cardImage.jpg",
     "description": "Legendary filmmaker known for the Apu Trilogy and pioneering Indian cinema.",
@@ -36,6 +39,7 @@
   },
   {
     "name": "Acharya Jagadish Chandra Bose",
+    "slug": "jagadish_chandra_bose",
     "imageUrl": "/images/jagadish_bose.jpg",
     "cardImageURL": "/cardImages/jagadish_cardImage.jpg",
     "description": "Scientist and polymath who pioneered wireless communication and plant physiology.",
@@ -48,6 +52,7 @@
   },
   {
     "name": "Netaji Subhas Chandra Bose",
+    "slug": "subhash_chandra_bose",
     "imageUrl": "/images/subhash_bose.jpg",
     "cardImageURL": "/cardImages/subhash_chandra_card.jpg",
     "description": "Indian nationalist and leader of the Indian National Army (INA).",
@@ -59,6 +64,7 @@
     },
    {
     "name": "Satyendranath Bose",
+    "slug": "satyendranath_bose",
     "imageURL": "/images/satyen_bose.jpg",
     "cardImageURL": "/cardImages/satyen_bose_card.jpg",
     "description": "Pioneer of quantum mechanics, known for Bose-Einstein statistics.",
@@ -70,6 +76,7 @@
   },
   {
     "name": "Rash Behari Bose",
+    "slug": "rash_behari_bose",
     "imageURL": "/images/rash_behari_bose.jpg",
     "cardImageURL": "/cardImages/rashbihari_bose.jpg",
     "description": "Key revolutionary leader who helped form the Indian National Army in Japan.",
@@ -81,6 +88,7 @@
   },
   {
     "name": "Sri Ramakrishna Paramhansa",
+    "slug": "ramakrishna_paramhansa",
     "imageURL": "/images/ramakrishna.jpg",
     "cardImageURL": "/cardImages/ramakrishna_card.jpg",
     "description": "Mystic saint and spiritual teacher of Swami Vivekananda.",
@@ -92,6 +100,7 @@
   },
   {
     "name": "Sri Aurobindo Ghose",
+    "slug": "aurobindo_ghose",
     "imageURL": "/images/aurobindo_ghosh.jpg",
     "cardImageURL": "/cardImages/aurobindo_ghosh_card.jpg",
     "description": "Indian nationalist turned yogi, philosopher, and poet.",
@@ -104,6 +113,7 @@
 
   {
     "name": "Khudiram Bose",
+    "slug": "khudiram_bose",
     "imageURL": "/images/khudiram_bose.jpg",
     "cardImageURL": "/cardImages/khudiram_bose_card.png",
     "description": "One of the youngest revolutionaries executed during India's freedom struggle.",
@@ -115,6 +125,7 @@
   },
   {
     "name": "Leela Roy",
+    "slug": "leela_roy",
     "imageURL": "/images/lila_roy.jpg",
     "cardImageURL": "/cardImages/leela_roy_card.png",
     "description": "Social reformer and revolutionary, co-founder of women's rights movements.",
@@ -126,6 +137,7 @@
   },
   {
     "name": "Matangini Hazra",
+    "slug": "matangini_hazra",
     "imageURL": "/images/matangini_hazra.jpg",
     "cardImageURL": "/cardImages/matamgini_hajra_card.png",
     "description": "Elderly activist martyred during the Quit India Movement.",
@@ -135,18 +147,10 @@
     "category": "Freedom Fighter",
     "LifeStory": "<h1>Matangini Hazra: The Grandmother of Indian Freedom</h1><h2>Early Life</h2><p>Matangini Hazra was born on <strong>October 19, 1870</strong>, in the village of Hogla, near Tamluk, in the Bengal Presidency of British India. She came from a poor peasant family and faced hardships early in life. Matangini was married at a young age and became a widow while still in her teens. Despite the lack of formal education, she developed a deep sense of patriotism and justice.</p><h2>Education</h2><p>Due to poverty and prevailing social norms, Matangini did not receive any formal education. However, her life experiences and spiritual inclinations gave her a strong moral compass. She was self-aware, courageous, and committed to social justice long before she formally joined the freedom movement.</p><h2>Involvement in the Freedom Struggle</h2><p>Matangini was deeply inspired by Mahatma Gandhi and his non-violent movement. In the 1930s, she became active in the Civil Disobedience Movement and participated in the Salt Satyagraha. She was arrested several times for protesting against British rule. Her fearless involvement earned her the affectionate nickname 'Gandhi Buri', meaning 'Old Lady Gandhi'.</p><h2>Notable Contribution</h2><p>During the Quit India Movement in 1942, at the age of 72, Matangini led a peaceful procession of thousands of women to take over the Tamluk Police Station. As the British police opened fire on the marchers, she continued to walk forward with the Indian flag, chanting 'Vande Mataram'. Even after being shot, she held the flag high until she fell, making her one of the most iconic martyrs of the Indian independence movement.</p><h2>Death</h2><p>Matangini Hazra was shot and killed by British police on <strong>September 29, 1942</strong>, while leading the protest. Her bravery and ultimate sacrifice became a symbol of women's contribution to India's freedom struggle. She died with the national flag in her hands and the words 'Vande Mataram' on her lips.</p><h2>Legacy</h2><p>Matangini Hazra is remembered as a fearless and devoted patriot. A statue in her honor stands in Kolkata—one of the few statues in the city dedicated to a woman freedom fighter. Many schools, streets, and institutions in West Bengal bear her name, and her story continues to inspire generations across India.</p>"
   },
-  {
-    "name": "Binay, Badal & Dinesh",
-    "imageURL": "/images/binay_badal_dinesh.jpg",
-    "cardImageURL": "/cardImages/binay_badal_dinesh_card.jpg",
-    "description": "The revolutionary trio behind the Writers' Building attack in 1930.",
-    "dob": "1910-01-01",
-    "location": "Various districts, Bengal Presidency",
-    "awards": [],
-    "category": "Freedom Fighter"
-  },
+  
     {
     "name": "Raja Ram Mohan Roy",
+    "slug": "raja_ram_mohan_roy",
     "imageURL": "/images/raja_ram_mohan_roy.jpg",
     "cardImageURL": "/cardImages/raja_ram_mohan_roy.jpg",
     "description": "Founder of the Brahmo Samaj and a pioneer of Indian social reform and modern education.",
@@ -157,6 +161,7 @@
   },
   {
     "name": "Ishwar Chandra Vidyasagar",
+    "slug": "ishwar_chandra_vidyasagar",
     "imageURL": "/images/ishwar_chandra_vidyasagar.jpeg",
     "cardImageURL": "/cardImages/ishwarchandra_vidyasagar_card.png",
     "description": "Key figure in the Bengal Renaissance, champion of women's education and widow remarriage.",
@@ -167,6 +172,7 @@
   },
   {
     "name": "Bankim Chandra Chattopadhyay",
+    "slug": "bankim_chandra_chattopadhyay",
     "imageURL": "/images/bankim_chandra_chattopadhyay.jpg",
     "cardImageURL": "/cardImages/bankim_card.jpg",
     "description": "Author of 'Vande Mataram', novelist and key figure in Bengali literature and nationalism.",
@@ -177,6 +183,7 @@
   },
   {
     "name": "Sarat Chandra Chattopadhyay",
+    "slug": "sarat_chandra_chattopadhyay",
     "imageURL": "/images/sarat_chandra_chattopadhyay.jpg",
     "cardImageURL": "/cardImages/saratchandra_chatterjee_card.png",
     "description": "One of the most popular Bengali novelists, known for his realistic depiction of society.",
@@ -187,6 +194,7 @@
   },
   {
     "name": "Master Da Surya Sen",
+    "slug": "masterda_surya_sen",
     "imageURL": "/images/surya_sen.jpg",
     "cardImageURL": "/cardImages/masterda-surya-sen.jpg",
     "description": "Revolutionary leader of the Chittagong Armoury Raid against British rule.",
@@ -197,6 +205,7 @@
   },
   {
     "name": "Bagha Jatin",
+    "slug": "bagha_jatin",
     "imageURL": "/images/bagha_jatin.jpg",
     "cardImageURL": "/cardImages/bagha_jatin.jpg",
     "description": "Courageous revolutionary leader known for his fierce resistance against British forces.",
@@ -207,6 +216,7 @@
   },
     {
     "name": "Radhabinod Pal",
+    "slug": "radhabinod_pal",
     "imageURL": "/images/radhabinod_pal.jpg",
     "cardImageURL": "/cardImages/radhabinod_paul_card.jpg",
     "description": "Indian jurist known for his dissenting judgment at the Tokyo War Crimes Tribunal after World War II.",
@@ -217,6 +227,7 @@
   },
   {
     "name": "Kazi Nazrul Islam",
+    "slug": "kazi_nazrul_islam",
     "imageURL": "/images/kazi_nazrul_islam.jpg",
     "cardImageURL": "/cardImages/najrul_islam_card.jpeg",
     "description": "Revolutionary poet, writer, and musician known as the 'Rebel Poet' of Bengal.",
@@ -227,6 +238,7 @@
   },
   {
     "name": "Sukumar Ray",
+    "slug": "sukumar_ray",
     "imageURL": "/images/sukumar_ray.jpg",
     "cardImageURL": "/cardImages/sukumar_ray_card.png",
     "description": "Bengali author and poet famous for his nonsense literature and children's classics like 'Abol Tabol'.",
@@ -237,6 +249,7 @@
   },
   {
     "name": "Michael Madhusudan Dutt",
+    "slug": "michael_madhusudan_dutt",
     "imageURL": "/images/michael_madhusudan_dutt.jpg",
     "cardImageURL": "/cardImages/madhusudan_dutt_card.jpg",
     "description": "Pioneer of Bengali blank verse and a key figure in the Bengal Renaissance.",

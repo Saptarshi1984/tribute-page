@@ -1,29 +1,29 @@
 'use client'
 
+import {useState} from 'react'
+import { Tabs } from '@chakra-ui/react'
+import { Prose } from "@/components/ui/prose"
 import IntroCard from '@/components/IntroCard'
-import { useState } from 'react';
-import luminaries from '@/data/luminaries.json';
-import { useSearchParams } from 'next/navigation';
-import { Text, Tabs } from '@chakra-ui/react';
-import { Prose } from "@/components/ui/prose";
 
+interface Person {
+  name: string;
+  slug: string;
+  cardImageURL: string;
+  description: string;
+  LifeStory: string;
+}
 
-const Biodata = () => {
+interface PeopleDetailsClientWrapperProps {
+  person: Person;
+}
 
-  const [currentTab, setCurrentTab] = useState<string | 'null'>('first');
-  const searchParams = useSearchParams();
-  const name = decodeURIComponent(searchParams.get('name') || '');
-  const person = luminaries.find(p => p.name === name);
+const PeopleDetailsClientWrapper =  ({person}:PeopleDetailsClientWrapperProps) => {
 
-
-
-  if (!person) {
-    return <Text fontSize="xl" p={6}>No data found for {name}</Text>;
-  }
+     const [currentTab, setCurrentTab] = useState<string | 'null'>('first');
 
   return (
-    
-    <div className='flex flex-col gap-4 items-center'>
+
+      <div className='flex flex-col gap-4 items-center'>
       
       <div className='flex flex-col gap-4'>
       <IntroCard
@@ -49,7 +49,7 @@ const Biodata = () => {
         
       </div>
     </div>
-  );
+  )
 }
 
-export default Biodata
+export default PeopleDetailsClientWrapper
