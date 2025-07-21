@@ -1,109 +1,96 @@
 [
-    {
-        "mainHeading": "Places to visit",
-        "mainImgSrc": "/tourism/kanchanjungha.png",
-        "mainText": "Here is the text",
-        
-        "festivalRow": [
-                 {
-                    "rowHeading": "Most Popular Places",
-                    "festivals": [
-                        {
-                            "festivalName": "Kolkata City",
-                            "festivalImage": "/tourism/kolkata.jpg",
-                            "festivalText": "You are here"
-                        },
 
-                        {
-                            "festivalName": "Darjeeling",
-                            "festivalImage": "/tourism/darjeeling.jpg",
-                            "festivalText": "You are here"
-                        },
+{
+    "id": 1,
+    "TourismName": "Kolkata City",
+    "TourismImage": "/tourism/kolkata.jpg",
+    "TourismText": "You are here",
+    "TourismCategory": "Most Popular Places"
 
-                        {
-                            "festivalName": "Sunderbans",
-                            "festivalImage": "/tourism/sunderbans.jpg",
-                            "festivalText": "You are here"
-                        },
-
-                        {
-                            "festivalName": "Shantiniketan",
-                            "festivalImage": "/tourism/shantiniketan.jpeg",
-                            "festivalText": "You are here"
-                        }
-                    ]
-                 }
-        ],
-
-        "musicRow": [
-            {
-                "rowHeading": "Beaches",
-                "musicCategory": [
-                    {
-                        "musicName": "Digha",
-                        "musicImage": "/tourism/digha.jpg",
-                        "musicText": "some_text"
-                    },
-
-                    {
-                        "musicName": "Mandarmoni",
-                        "musicImage": "/tourism/mandarmoni.jpg",
-                        "musicText": "some_text"
-                    },
-
-                    {
-                        "musicName": "Bakkhali",
-                        "musicImage": "/tourism/bakkhali.jpeg",
-                        "musicText": "some_text"
-                    },
-
-                    {
-                        "musicName": "ISKON - Mayapur",
-                        "musicImage": "/tourism/mayapur.jpg",
-                        "musicText": "some_text"
-                    }
-                ]
-            }
-        ],
-
-        "foodRow": [
-            {
-                "rowHeading": "Kolkata Sightseeing",
-                "foodCategory": [
-                    {
-                        "foodName": "Victoria Memorial ",
-                        "foodImage": "/tourism/victoria_memorial.jpg",
-                        "foodText": "some_text"
-                    },
-
-                    {
-                        "foodName": "Alipur Zoo",
-                        "foodImage": "/tourism/alipur_zoo.jpg",
-                        "foodText": "some_text"
-
-                    },
-
-                    {
-                        "foodName": "Jorashanko Thakurbari",
-                        "foodImage": "/tourism/jorashanko_thakurbari.jpg",
-                        "foodText": "some_text"
-                    },
-
-                    {
-                        "foodName": "Kolkata Maidan",
-                        "foodImage": "/tourism/kolkata_maidan.jpg",
-                        "foodText": "some_text"
-                    },
-
-                    {
-                        "foodName": "Princep Ghat",
-                        "foodImage": "/tourism/princep_ghat.jpg",
-                        "foodText": "some_text"
-                    }
+},
+{
+    "id":2,
+    "TourismName": "Darjeeling",
+    "TourismImage": "/tourism/darjeeling.jpg",
+    "TourismText": "You are here",
+    "TourismCategory": "Most Popular Places"
+},
+{
+    "id":3,
+    "TourismName": "Sunderbans",
+    "TourismImage": "/tourism/sunderbans.jpg",
+    "TourismText": "You are here",
+    "TourismCategory": "Most Popular Places"
+},
+{
+    "id":4,
+    "TourismName": "Shantiniketan",
+    "TourismImage": "/tourism/shantiniketan.jpeg",
+    "TourismText": "You are here",
+    "TourismCategory": "Most Popular Places"
+},
+{
+    "id":5,
+    "TourismName": "Digha",
+    "TourismImage": "/tourism/digha.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "Beaches"
+},
+{
+    "id":6,
+    "TourismName": "Mandarmoni",
+    "TourismImage": "/tourism/mandarmoni.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "Beaches"
+},
+{
+    "id":7,
+    "TourismName": "Bakkhali",
+    "TourismImage": "/tourism/bakkhali.jpeg",
+    "TourismText": "some_text",
+    "TourismCategory": "Beaches"
+},
+{
+    "id":8,
+    "TourismName": "ISKON - Mayapur",
+    "TourismImage": "/tourism/mayapur.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "Most Popular Places"
+},
+{
+    "id":9,
+    "TourismName": "Victoria Memorial ",
+    "TourismImage": "/tourism/victoria_memorial.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "Most Popular Places"
+},
+{
+    "id":10,
+    "TourismName": "Alipur Zoo",
+    "TourismImage": "/tourism/alipur_zoo.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "In the City"
+},
+{
+    "id":11,
+    "TourismName": "Jorashanko Thakurbari",
+    "TourismImage": "/tourism/jorashanko_thakurbari.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "In the City"
+},
+{
+    "id":12,
+    "TourismName": "Kolkata Maidan",
+    "TourismImage": "/tourism/kolkata_maidan.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "In the City"
+},
+{
+    "id":13,
+    "TourismName": "Princep Ghat",
+    "TourismImage": "/tourism/princep_ghat.jpg",
+    "TourismText": "some_text",
+    "TourismCategory": "In the City"
+}
                     
-                ]
-            }
-        ]
-
-    }
 ]

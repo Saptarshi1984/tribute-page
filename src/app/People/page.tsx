@@ -3,8 +3,6 @@ import { getLuminariesData } from '../utils/data'
 import PeopleClientWrapper from '@/components/PeopleClientWrapper';
 
 
-
-
 const PeoplePage = async () => {
 
     const luminariesData =  getLuminariesData();    

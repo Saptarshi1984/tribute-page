@@ -1,33 +1,29 @@
 "use client"
 import React from 'react'
-import { Card, Image, AspectRatio, Text} from "@chakra-ui/react"
+import { Card, AspectRatio, Text} from "@chakra-ui/react"
+import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import ButttonPrimary from './ButttonPrimary';
 
 interface DisplayCardProps {
+
     cardDescription: string;
     cardName: string;
-    imageSrc: string;
-    imageName: string;
+    imageSrc: string;   
 }
 
-const DisplayCard = ({cardName, cardDescription, imageSrc, imageName}: DisplayCardProps)=> {
+const DisplayCard = ({cardName, cardDescription, imageSrc}: DisplayCardProps)=> {
   return (
     
-    <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-        >
+    <div>
           <Card.Root maxW="sm" overflow="hidden">
           <AspectRatio ratio = {4/3}>
           <Image
-            w={'sm'}        
+            width={400} 
+            height={400}      
             src={imageSrc}
-            alt={imageName}
-            objectFit='cover'
+            alt={cardName}
+            loading='lazy'                      
           />
           </AspectRatio>
           <Card.Body gap="2">
@@ -38,11 +34,11 @@ const DisplayCard = ({cardName, cardDescription, imageSrc, imageName}: DisplayCa
           </Card.Body>
           <Card.Footer gap="2" justifyItems="center" >
              <Link href={`/CultueData?name=${encodeURIComponent(cardName)}`} passHref>          
-              <ButttonPrimary   btnText='Read More' src=''/>        
+              <ButttonPrimary   btnText= 'Read More' src=''/>        
             </Link>
           </Card.Footer>
         </Card.Root>      
-        </motion.div>
+        </div>
   )
 }
 

@@ -8,6 +8,7 @@ import SearchBar from './SearchBar';
 
 
 interface luminariesDataProps {
+  id:number
   name: string;
   cardImageURL: string;
   description: string;
@@ -33,14 +34,14 @@ const PeopleClientWrapper = ({luminariesData}:PeopleClientWrapperProps) => {
 
     <div className='w-[65%] flex flex-row justify-between items-center'>
       <SelectCategory value={selected} onChange={setSelected} />
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
     <div className='w-auto'>
     <SimpleGrid columns={[4]} gap={10} p={4} className='w-auto m-auto'>
        { filteredLuminaries.map((model, i) => (
       
        <ProfileCard
-       key = {i}
+       key = {model.id}
        slug = {model.slug} 
        cardImageURL= {model.cardImageURL}
        name= {model.name}

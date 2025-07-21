@@ -1,4 +1,4 @@
-'use client'
+/* 'use client'
 
 import IntroCard from '@/components/IntroCard'
 import { useState } from 'react';
@@ -53,3 +53,4 @@ const Biodata = () => {
 }
 
 export default Biodata
+ */

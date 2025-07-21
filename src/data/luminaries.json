@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "name": "Rabindranath Tagore",
     "slug": "rabindra_nath_tagore",
     "imageUrl": "/images/rabindra_nath_tagore.jpg",
@@ -13,6 +14,7 @@
 
   },
   {
+    "id":2,
     "name": "Swami Vivekananda",
     "slug": "swami_vivekananda",
     "imageUrl": "/images/swami_vivekananda.jpg",
@@ -25,6 +27,7 @@
     "LifeStory":"<h1>Swami Vivekananda: The Torchbearer of Modern Indian Spirituality</h1><h2>Early Life</h2><p>Swami Vivekananda, born as <strong>Narendranath Datta</strong> on <strong>January 12, 1863</strong>, in Kolkata, was raised in a culturally rich and spiritually inclined Bengali family. His father, Vishwanath Datta, was a lawyer at the Calcutta High Court, and his mother, Bhuvaneshwari Devi, was deeply spiritual and influenced young Narendra with stories from Indian epics. From an early age, he displayed an extraordinary memory, a questioning mind, and a strong sense of discipline.</p><h2>Education</h2><p>Narendra was an exceptionally bright student. He attended <strong>Presidency College</strong> and later <strong>Scottish Church College</strong>, where he studied philosophy, logic, history, and Western thought. He was drawn to both Indian scriptures like the <em>Upanishads</em> and <em>Bhagavad Gita</em>, as well as Western philosophy, especially the works of Kant, Hume, and Herbert Spencer. However, his intellect also bred skepticism. He often asked spiritual teachers, “Have you seen God?” but never received a satisfying answer—until he met Sri Ramakrishna.</p><h2>Meeting Sri Ramakrishna</h2><p>In <strong>1881</strong>, Narendra met <strong>Sri Ramakrishna Paramhansa</strong> at the Dakshineswar Kali Temple. When asked his usual question, Ramakrishna replied without hesitation, “Yes, I have seen God… as clearly as I see you.” This answer shocked and intrigued Narendra. Initially skeptical of Ramakrishna’s ecstatic experiences and devotion to Kali, Narendra soon realized the depth of his teacher’s spiritual wisdom. Over the next five years, he became his devoted disciple.</p><h2>Turning Point</h2><p>After Ramakrishna's passing in <strong>1886</strong>, Narendra and his fellow disciples took vows of renunciation and formed a monastic order. Taking the name <strong>Swami Vivekananda</strong>, he set out on a pilgrimage across India. As he traveled, he witnessed the crushing poverty, superstition, and division among the people. He was deeply moved by the suffering of the masses and concluded that <em>spirituality must be combined with social upliftment</em>. This realization became the foundation of his future mission.</p><h2>Mission</h2><p>In <strong>1893</strong>, Vivekananda traveled to the United States to participate in the <strong>World’s Parliament of Religions</strong> in Chicago. But before that, he spent years learning about the Western world and Indian diaspora. His mission was clear: to spread the universal message of Vedanta and to awaken India’s self-confidence. He emphasized <strong>service to humanity as the highest form of worship</strong>, and envisioned a new India—rooted in its spiritual legacy but active in the modern world.</p><h2>Chicago Speech</h2><p>On <strong>September 11, 1893</strong>, Swami Vivekananda delivered his famous address at the Parliament of Religions, beginning with the words, <strong>“Sisters and Brothers of America.”</strong> The audience of thousands erupted into applause. In his speech, he spoke of <strong>tolerance, unity, and the universality of all religions</strong>, drawing from the ancient Indian wisdom of Vedanta. He challenged the idea of religious superiority and called for spiritual harmony. This speech made him an international icon overnight and marked India’s spiritual voice on the global stage.</p><h2>Belur Math</h2><p>Upon returning to India in <strong>1897</strong>, Vivekananda established the <strong>Ramakrishna Mission</strong> and <strong>Belur Math</strong> on the banks of the Ganges near Kolkata. These institutions were set up with a twofold purpose: <em>personal spiritual growth and service to society</em>. Monks of the order took vows not just of renunciation but also of service—running schools, hospitals, disaster relief programs, and rural upliftment. His work laid the foundation for <strong>modern Hindu monasticism with a social conscience</strong>.</p><h2>Death</h2><p>Swami Vivekananda’s health declined due to his tireless work and past illnesses. On <strong>July 4, 1902</strong>, at the young age of <strong>39</strong>, he passed away peacefully at Belur Math. According to his wish, he had lived “not more than 40 years.” Despite his short life, Vivekananda left a legacy that transformed India’s self-image and inspired countless leaders, including Mahatma Gandhi, Subhas Chandra Bose, and A.P.J. Abdul Kalam.</p><p>Swami Vivekananda’s life remains a glowing example of how <strong>faith, knowledge, and compassion</strong> can uplift not only individuals but entire nations. His message of <em>spiritual strength, service to humanity, and universal brotherhood</em> continues to inspire millions across the world.</p>"
   },
   {
+    "id":3,
     "name": "Satyajit Ray",
     "slug": "satyajit_ray",
     "imageUrl": "/images/satyajit_ray.jpg",
@@ -38,6 +41,7 @@
 
   },
   {
+    "id":4,
     "name": "Acharya Jagadish Chandra Bose",
     "slug": "jagadish_chandra_bose",
     "imageUrl": "/images/jagadish_bose.jpg",
@@ -51,6 +55,7 @@
 
   },
   {
+    "id":5,
     "name": "Netaji Subhas Chandra Bose",
     "slug": "subhash_chandra_bose",
     "imageUrl": "/images/subhash_bose.jpg",
@@ -63,6 +68,7 @@
     "LifeStory": "<h1>Netaji Subhash Chandra Bose: The Forgotten Hero</h1>  <h2>Early Life</h2>  <p>Subhash Chandra Bose was born on <strong>January 23, 1897</strong>, in Cuttack, Odisha, into a well-to-do Bengali family. His father, Janakinath Bose, was a prominent lawyer. From an early age, Subhash displayed qualities of leadership, discipline, and a deep love for his country. He was deeply influenced by the teachings of Swami Vivekananda and Ramakrishna Paramhansa.</p>  <h2>Education</h2>  <p>Bose was educated at the Presidency College and later at the Scottish Church College in Kolkata. After completing his graduation, he went to England to prepare for the Indian Civil Services (ICS) examination, which he cleared with distinction in 1920. However, moved by the freedom movement in India, he resigned from the ICS in 1921 to serve his country full-time in the struggle for independence.</p>  <h2>Ideological Differences with Gandhi and Nehru</h2>  <p>While Bose admired Mahatma Gandhi for his role in the national movement, he strongly disagreed with his philosophy of non-violence. He believed that independence could not be achieved through peaceful protests alone and advocated for more aggressive and militaristic methods. He also had disagreements with Nehru on foreign policy and the pace of the movement. These differences led to his resignation from the Indian National Congress presidency in 1939.</p>  <h2>Forward Bloc</h2>  <p>Following his departure from Congress, Bose formed the <strong>All India Forward Bloc</strong> in 1939, aiming to consolidate the political left and continue the struggle for independence with a more radical approach. The Forward Bloc emphasized unity among different communities and classes to achieve complete freedom from British rule.</p>  <h2>The Great Escape</h2>  <p>In 1941, under house arrest by the British, Bose made a daring escape from Kolkata. Disguised as a Pathan, he traveled through Afghanistan to reach Germany. From there, he sought support from the Axis powers to liberate India. His journey exemplified his fearless determination and strategic mind.</p>  <h2>Indian National Army (INA)</h2>  <p>Bose later traveled to Southeast Asia and took leadership of the <strong>Indian National Army (INA)</strong>, which had been originally formed by <strong>Rashbehari Bose</strong>, a senior revolutionary living in exile in Japan. Recognizing Subhash Chandra Bose's dynamic leadership, Rashbehari voluntarily handed over command of the INA to him in 1943. Under Netaji's leadership, the INA gave the war cry “<strong>Chalo Delhi</strong>” and fought against British forces in Burma and northeastern India. Though the military campaign did not succeed, it ignited nationalist fervor back home and shook the foundations of British colonial rule.</p>  <h2>Death Mystery</h2>  <p>Subhash Chandra Bose reportedly died in a plane crash in <strong>Taipei, Taiwan</strong>, on <strong>August 18, 1945</strong>. However, his death remains one of the greatest mysteries in Indian history. Multiple investigations and theories have questioned the official account, with some believing he survived and lived incognito.</p>  <p>The organization <strong>Mission Netaji</strong> has played a crucial role in the movement to declassify secret government files related to Netaji’s disappearance. Researchers and authors <strong>Anuj Dhar</strong> and <strong>Chandrachud Ghose</strong> have been instrumental in exploring alternate theories about his fate. Their books, including <em>“India’s Biggest Cover-Up”</em> and <em>“Conundrum: Subhas Bose’s Life After Death”</em>, present detailed arguments against the air crash theory and suggest the possibility of his survival under an assumed identity.</p>  <p>The mystery continues to intrigue historians, researchers, and patriots alike.</p>  <p>Netaji Subhash Chandra Bose remains a symbol of courage, nationalism, and sacrifice. His vision of a strong, united, and self-reliant India continues to inspire generations.</p>"
     },
    {
+    "id":6,
     "name": "Satyendranath Bose",
     "slug": "satyendranath_bose",
     "imageURL": "/images/satyen_bose.jpg",
@@ -75,6 +81,7 @@
      "LifeStory": "<h1>Satyendranath Bose: The Pioneer of Quantum Statistics</h1><h2>Early Life</h2><p>Satyendranath Bose was born on <strong>January 1, 1894</strong>, in Kolkata (then Calcutta), British India. His father, Surendranath Bose, was an engineer with the East Indian Railway. From a young age, Bose exhibited exceptional aptitude in mathematics and science, which was nurtured by his family.</p><h2>Education</h2><p>Bose attended the prestigious Hindu School and later graduated from Presidency College, Kolkata, where he was a contemporary of Meghnad Saha. He went on to complete a Master’s degree in Mixed Mathematics from the University of Calcutta, standing first in his class.</p><h2>Research</h2><p>During his early academic career, Bose worked on theoretical physics and was particularly interested in statistical mechanics and the theory of relativity. In 1924, he derived Planck’s law for black-body radiation using a novel approach that treated photons as indistinguishable particles. This laid the foundation for quantum statistics.</p><h2>Bose & Einstein</h2><p>Unable to get his research paper published in any European journal, Bose sent it directly to <strong>Albert Einstein</strong>, who immediately recognized its significance. Einstein translated the paper into German and got it published in the prestigious journal <em>Zeitschrift für Physik</em>. Einstein further extended Bose’s ideas to atoms, leading to the prediction of a new state of matter now known as <strong>Bose-Einstein Condensate</strong>. The term “boson” — used to describe particles that obey Bose-Einstein statistics — was named after Satyendranath Bose.</p><h2>Recognition</h2><p>Despite never receiving a Nobel Prize, Bose earned immense respect and recognition in the scientific community. He was appointed as Professor and later Dean of Science at the University of Dhaka, where he mentored future physicists. In 1954, he was awarded India’s second-highest civilian honor, the <strong>Padma Vibhushan</strong>. He also served as a National Professor of India and was elected Fellow of the Royal Society.</p><h2>Death</h2><p>Satyendranath Bose passed away on <strong>February 4, 1974</strong>, in Kolkata. His pioneering contributions to quantum mechanics and statistical physics continue to influence modern science. He is remembered as one of the greatest physicists to emerge from India.</p>"
   },
   {
+    "id":7,
     "name": "Rash Behari Bose",
     "slug": "rash_behari_bose",
     "imageURL": "/images/rash_behari_bose.jpg",
@@ -87,6 +94,7 @@
     "LifeStory": "<h1>Rash Behari Bose: The Revolutionary Who Bridged East and South Asia</h1><h2>Early Life</h2><p>Rash Behari Bose was born on <strong>May 25, 1886</strong>, in Subaldaha, Burdwan (now in West Bengal), British India. From a young age, he was influenced by the stories of Indian freedom fighters and revolutionary ideals. His father, Binod Behari Bose, encouraged his education and interest in nationalist movements.</p><h2>Education and Early Influences</h2><p>He studied at Dupleix College in Chandannagar and later moved to Dehradun for further education. During this time, Bose came into contact with nationalist leaders and became deeply involved with revolutionary groups such as the Anushilan Samiti and Jugantar. The turning point came when he was assigned to plan and execute revolutionary actions against British officials.</p><h2>Delhi Conspiracy and Exile</h2><p>Rash Behari Bose gained national attention after being linked to the <strong>Delhi Conspiracy Case</strong> (1912), which involved the attempted assassination of Lord Hardinge, the Viceroy of India. Though he escaped arrest, he became a wanted man. In 1915, after the failed Ghadar Mutiny, he fled to <strong>Japan</strong> using a forged passport to avoid capture by British authorities.</p><h2>Life in Japan and Political Activities</h2><p>In Japan, Bose found refuge among Pan-Asian groups and sympathizers of the Indian freedom struggle. He married a Japanese woman, Toshiko Soma, and eventually became a Japanese citizen. He continued to organize Indian revolutionaries in East and Southeast Asia, maintaining contacts with the Indian National Congress and other anti-colonial movements.</p><h2>Formation of Indian Independence League</h2><p>During World War II, Bose played a crucial role in uniting Indian expatriates and forming the <strong>Indian Independence League</strong> in 1942 to mobilize support for India’s freedom. His greatest contribution came when he laid the foundation for the <strong>Indian National Army (INA)</strong> and invited <strong>Subhash Chandra Bose</strong> to lead it. Rash Behari willingly handed over leadership of the League and INA to Netaji, recognizing that younger, more dynamic leadership was essential.</p><h2>Recognition and Legacy</h2><p>Rash Behari Bose remains a towering figure in the Indian independence movement, especially for his efforts in internationalizing India’s freedom cause and building solidarity with Japan. He is one of the earliest revolutionaries to envision global support for India’s liberation and worked tirelessly from abroad to bring it to fruition.</p><h2>Death</h2><p>Rash Behari Bose passed away on <strong>January 21, 1945</strong>, in Tokyo. He was honored by the Japanese government and continues to be remembered as the forerunner of the INA and a hero who dedicated his life to India’s independence from foreign soil.</p>"
   },
   {
+    "id":8,
     "name": "Sri Ramakrishna Paramhansa",
     "slug": "ramakrishna_paramhansa",
     "imageURL": "/images/ramakrishna.jpg",
@@ -99,6 +107,7 @@
     "LifeStory": "<h1>Ramakrishna Paramhansa: The Mystic Saint of Bengal</h1><h2>Early Life</h2><p>Ramakrishna was born as Gadadhar Chattopadhyay on <strong>February 18, 1836</strong>, in the village of Kamarpukur in present-day West Bengal. Born into a poor but pious Brahmin family, he grew up in a deeply spiritual atmosphere. His parents, Khudiram Chattopadhyay and Chandramani Devi, were known for their religiosity and generosity despite their poverty.</p><h2>Education</h2><p>Gadadhar did not show much interest in formal education or worldly affairs. He resisted rote learning and preferred spending time in nature, music, and religious stories. Although he briefly attended a village school, he eventually dropped out and immersed himself in spiritual practices and storytelling.</p><h2>Spiritual Initiation</h2><p>Ramakrishna's intense spiritual temperament led him to profound mystical experiences from a young age. As a teenager, he often entered states of spiritual ecstasy while contemplating divine forms. His first significant initiation came under the guidance of Bhairavi Brahmani, a female ascetic who identified his spiritual potential and introduced him to Tantric disciplines.</p><h2>Childhood Incidents</h2><p>Even as a child, Gadadhar displayed deep devotion and unusual spiritual insight. One famous incident occurred when he saw a flock of white cranes flying against a backdrop of dark clouds, which threw him into a trance. Such trances became frequent, alarming his family but seen by others as signs of divine grace.</p><h2>Marriage with Maa Sarada Devi</h2><p>At the age of 23, Ramakrishna was married to <strong>Sarada Devi</strong>, who was only five at the time. She later joined him in Dakhineshwar as a spiritual partner, not in a conventional marital role. Sarada Devi became his foremost disciple and later, the spiritual mother to the Ramakrishna Mission, continuing his legacy with grace and wisdom.</p><h2>Becoming Priest of Dakhineshwar Kali Temple</h2><p>Ramakrishna was appointed the priest of the Kali temple at Dakhineshwar in 1856 by Rani Rashmoni. It was here that he had his most profound spiritual experiences, often talking to the deity as “Mother” and entering deep trances. He practiced various spiritual paths including Vaishnavism, Tantra, Islam, and Christianity—realizing the divine in each tradition.</p><h2>His Disciples</h2><p>Ramakrishna attracted a devoted circle of disciples, the most notable being <strong>Swami Vivekananda</strong>, who later took his master's message across the world. Other disciples included Mahendranath Gupta (M), Swami Brahmananda, Swami Shivananda, and many householders. These disciples formed the foundation of the Ramakrishna Order.</p><h2>His Philosophy of Religion</h2><p>Ramakrishna’s central message was that “<em>Yato mat, tato path</em>” — all religions are valid paths to the same divine reality. He taught that God can be realized through love, devotion, and sincere practice. His emphasis on personal experience of the divine over book knowledge revolutionized spiritual thought in modern India.</p><h2>Death</h2><p>Ramakrishna passed away on <strong>August 16, 1886</strong>, after battling throat cancer. His final days were spent surrounded by his disciples in Cossipore Garden House. Even in suffering, he remained spiritually radiant. His death marked the beginning of the Ramakrishna Mission, carried forward by Swami Vivekananda.</p>"
   },
   {
+    "id":9,
     "name": "Sri Aurobindo Ghose",
     "slug": "aurobindo_ghose",
     "imageURL": "/images/aurobindo_ghosh.jpg",
@@ -112,6 +121,7 @@
   },
 
   {
+    "id":10,
     "name": "Khudiram Bose",
     "slug": "khudiram_bose",
     "imageURL": "/images/khudiram_bose.jpg",
@@ -124,6 +134,7 @@
     "LifeStory": "<h1>Khudiram Bose: The Teenage Revolutionary Who Shook an Empire</h1><h2>Early Life</h2><p>Khudiram Bose was born on <strong>December 3, 1889</strong>, in the village of Habibpur in Midnapore district, Bengal Presidency, British India. Orphaned at a young age, he was raised by his elder sister. From his early teens, Khudiram displayed deep patriotism and a fearless nature, traits that would define his short but impactful life.</p><h2>Education</h2><p>Khudiram studied at Hamilton High School in Tamluk. He was deeply influenced by nationalist literature and local leaders involved in the Swadeshi movement following the Partition of Bengal in 1905. His involvement with revolutionary groups began during his school years when he started distributing pamphlets and actively participating in anti-British protests.</p><h2>Assassination Plan</h2><p>Khudiram, along with Prafulla Chaki, was chosen by the revolutionary group Jugantar to assassinate Magistrate Kingsford, known for his harsh rulings against freedom fighters. On <strong>April 30, 1908</strong>, the duo targeted Kingsford’s carriage outside the European Club in Muzaffarpur. However, due to mistaken identity, their bomb killed two British women instead—Mrs. Kennedy and her daughter.</p><h2>Conviction</h2><p>After the bombing, Khudiram fled but was eventually arrested by the British police. At just 18 years old, he faced trial with remarkable courage. When asked for his name, he replied with pride, “Khudiram Bose, a servant of the Motherland.” Despite his youth, he was sentenced to death. His unshaken patriotism and smile on the way to the gallows deeply moved the nation.</p><h2>Death</h2><p>Khudiram Bose was executed on <strong>August 11, 1908</strong>, in Muzaffarpur Jail. He became one of the youngest martyrs of India’s freedom struggle. His sacrifice ignited a flame of resistance across Bengal and the country. Songs and poems were composed in his memory, and his legacy continues to inspire generations of Indians.</p>"
   },
   {
+    "id":11,
     "name": "Leela Roy",
     "slug": "leela_roy",
     "imageURL": "/images/lila_roy.jpg",
@@ -135,7 +146,7 @@
     "category": "Freedom Fighter",
     "LifeStory": "<h1>Leela Roy: A Fierce Nationalist and Pioneer of Women's Activism in Bengal</h1><h2>Early Life</h2><p>Leela Roy was born on <strong>October 2, 1900</strong>, in Goalpara, Assam, into a Bengali family rooted in progressive ideals. Her father, Girish Chandra Nag, was a deputy magistrate who supported her education and nationalist views. Raised during a time of political ferment, Leela’s childhood was marked by strong ideals of patriotism and justice.</p><h2>Education</h2><p>Leela was a brilliant student and one of the first women to graduate from the University of Dhaka with a master’s degree in English literature. Her academic excellence was matched by a fierce commitment to women’s rights and national freedom. She broke social norms by engaging in political debates and organizing student activism during her college years.</p><h2>Involvement in Various Revolutionary Activities</h2><p>Leela Roy became a committed member of the revolutionary group Anushilan Samiti and later was associated with Subhash Chandra Bose’s Forward Bloc. She established the <strong>Deepali Sangha</strong>, a women’s organization that trained girls in self-defense, political awareness, and revolutionary ideals. Leela edited and published the political magazine <em>Jayashree</em>, advocating women’s involvement in the freedom struggle. She was arrested multiple times by British authorities for her anti-colonial activities and even imprisoned for her writing and speeches. She played a critical role in reviving the Bengal Provincial Congress Committee and was one of the few women to directly support and work with Netaji Subhash Chandra Bose.</p><h2>Recognition</h2><p>Though often overlooked in mainstream historical narratives, Leela Roy is recognized today as one of the strongest women voices in Bengal’s nationalist movement. She was the only woman member of the Subhas Chandra Bose-led <strong>All India Forward Bloc Working Committee</strong>. Her tireless work in education, journalism, and grassroots activism earned her the admiration of her peers and later historians.</p><h2>Death</h2><p>Leela Roy passed away on <strong>June 11, 1970</strong>. She remained unmarried and fully devoted her life to India’s independence and the upliftment of women. Her legacy lives on through the organizations she founded and the lives she touched with her revolutionary spirit and bold convictions.</p>"
   },
-  {
+  {"id":12,
     "name": "Matangini Hazra",
     "slug": "matangini_hazra",
     "imageURL": "/images/matangini_hazra.jpg",
@@ -149,6 +160,7 @@
   },
   
     {
+    "id":13,
     "name": "Raja Ram Mohan Roy",
     "slug": "raja_ram_mohan_roy",
     "imageURL": "/images/raja_ram_mohan_roy.jpg",
@@ -160,6 +172,7 @@
     "category": "Social Reformer"
   },
   {
+    "id":14,
     "name": "Ishwar Chandra Vidyasagar",
     "slug": "ishwar_chandra_vidyasagar",
     "imageURL": "/images/ishwar_chandra_vidyasagar.jpeg",
@@ -171,6 +184,7 @@
     "category": "Social Reformer"
   },
   {
+    "id":15,
     "name": "Bankim Chandra Chattopadhyay",
     "slug": "bankim_chandra_chattopadhyay",
     "imageURL": "/images/bankim_chandra_chattopadhyay.jpg",
@@ -182,6 +196,7 @@
     "category": "Literature"
   },
   {
+    "id":16,
     "name": "Sarat Chandra Chattopadhyay",
     "slug": "sarat_chandra_chattopadhyay",
     "imageURL": "/images/sarat_chandra_chattopadhyay.jpg",
@@ -193,6 +208,7 @@
     "category": "Literature"
   },
   {
+    "id":17,
     "name": "Master Da Surya Sen",
     "slug": "masterda_surya_sen",
     "imageURL": "/images/surya_sen.jpg",
@@ -204,6 +220,7 @@
     "category": "Freedom Fighter"
   },
   {
+    "id":18,
     "name": "Bagha Jatin",
     "slug": "bagha_jatin",
     "imageURL": "/images/bagha_jatin.jpg",
@@ -215,6 +232,7 @@
     "category": "Freedom Fighter"
   },
     {
+    "id":19,
     "name": "Radhabinod Pal",
     "slug": "radhabinod_pal",
     "imageURL": "/images/radhabinod_pal.jpg",
@@ -226,6 +244,7 @@
     "category": "Law & Justice"
   },
   {
+    "id":20,
     "name": "Kazi Nazrul Islam",
     "slug": "kazi_nazrul_islam",
     "imageURL": "/images/kazi_nazrul_islam.jpg",
@@ -237,6 +256,7 @@
     "category": "Literature"
   },
   {
+    "id":21,
     "name": "Sukumar Ray",
     "slug": "sukumar_ray",
     "imageURL": "/images/sukumar_ray.jpg",
@@ -248,6 +268,7 @@
     "category": "Literature"
   },
   {
+    "id":22,
     "name": "Michael Madhusudan Dutt",
     "slug": "michael_madhusudan_dutt",
     "imageURL": "/images/michael_madhusudan_dutt.jpg",

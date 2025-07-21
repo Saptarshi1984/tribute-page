@@ -16,11 +16,10 @@ interface Person {
 const PeopleDetails = async ({params}:PDprops) => {
 
   const slugName= (await params).slug;
-  const people = getLuminariesData() as Person[];
+  const people= getLuminariesData() as Person[];
   const person = people.find(p => p.slug == slugName); 
   
   if (!person) return <div>Person not found</div>;
-
 
   return (
 

@@ -1,90 +1,82 @@
 [
-    {
-        "mainHeading": "A Vibrant Culture",
-        "mainImgSrc": "/culture/culture.png",
-        "mainText": "Here is the text",
-        "festivalRow": [
-                 {
-                    "rowHeading": "Festivals",
-                    "festivals": [
-                        {
-                            "festivalName": "Durga Puja",
-                            "festivalImage": "/culture/durga_puja.jpg",
-                            "festivalText": "You are here"
-                        },
 
-                        {
-                            "festivalName": "Poila Boishak",
-                            "festivalImage": "/culture/poila_boishak.png",
-                            "festivalText": "You are here"
-                        },
+{
+    "id":1,
+    "CultureName": "Durga Puja",
+    "CultureImage": "/culture/durga_puja.jpg",
+    "CultureText": "You are here",
+    "Category": "festivals"
+},
 
-                        {
-                            "festivalName": "Dol Purnima",
-                            "festivalImage": "/culture/dol_purnima.jpg",
-                            "festivalText": "You are here"
-                        },
+{
+    "id":2,
+    "CultureName": "Poila Boishak",
+    "CultureImage": "/culture/poila_boishak.png",
+    "CultureText": "You are here",
+    "Category": "festivals"
+},
 
-                        {
-                            "festivalName": "Dipavali",
-                            "festivalImage": "/culture/dipavali.jpg",
-                            "festivalText": "You are here"
-                        }
-                    ]
-                 }
-        ],
+{
+    "id":3,
+    "CultureName": "Dol Purnima",
+    "CultureImage": "/culture/dol_purnima.jpg",
+    "CultureText": "You are here",
+    "Category": "festivals"
+},
 
-        "musicRow": [
-            {
-                "rowHeading": "Music",
-                "musicCategory": [
-                    {
-                        "musicName": "Rabindra Sangeet",
-                        "musicImage": "/culture/rabindra_sangeet.jpeg",
-                        "musicText": "some_text"
-                    },
+{
+    "id":4,
+    "CultureName": "Kali Puja",
+    "CultureImage": "/culture/dipavali.jpg",
+    "CultureText": "You are here",
+    "Category": "festivals"
+},
+{
+    "id":5,
+    "CultureName": "Rabindra Sangeet",
+    "CultureImage": "/culture/rabindra_sangeet.jpeg",
+    "CultureText": "some_text",
+    "Category": "music"
+},
 
-                    {
-                        "musicName": "Baul",
-                        "musicImage": "/culture/baul_song.jpg",
-                        "musicText": "some_text"
-                    },
+{
+    "id":6,
+    "CultureName": "Baul",
+    "CultureImage": "/culture/baul_song.jpg",
+    "CultureText": "some_text",
+    "Category": "music"
+},
 
-                    {
-                        "musicName": "Folk Song",
-                        "musicImage": "/culture/baul_song.jpg",
-                        "musicText": "some_text"
-                    }
-                ]
-            }
-        ],
+{
+    "id":7,
+    "CultureName": "Folk Song",
+    "CultureImage": "/culture/baul_song.jpg",
+    "CultureText": "some_text",
+    "Category": "music"
+},
 
-        "foodRow": [
-            {
-                "rowHeading": "Authentic Bengali Cousines",
-                "foodCategory": [
-                    {
-                        "foodName": "Macher Jhol",
-                        "foodImage": "/culture/fish_curry.jpg",
-                        "foodText": "some_text"
-                    },
+{
+    "id":8,
+    "CultureName": "Macher Jhol",
+    "CultureImage": "/culture/fish_curry.jpg",
+    "CultureText": "some_text",
+    "Category": "food"
+},
 
-                    {
-                        "foodName": "Rosogolla",
-                        "foodImage": "/culture/rosogolla.jpeg",
-                        "foodText": "some_text"
+{
+    "id":9,
+    "CultureName": "Rosogolla",
+    "CultureImage": "/culture/rosogolla.jpeg",
+    "CultureText": "some_text",
+    "Category": "food"
+},
 
-                    },
-
-                    {
-                        "foodName": "Misti Doi",
-                        "foodImage": "/culture/misti_doi.jpg",
-                        "foodText": "some_text"
-                    }
+{
+    "id":10,
+    "CultureName": "Misti Doi",
+    "CultureImage": "/culture/misti_doi.jpg",
+    "CultureText": "some_text",
+    "Category": "food"
+}
                     
-                ]
-            }
-        ]
-
-    }
 ]
