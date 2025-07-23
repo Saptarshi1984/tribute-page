@@ -24,7 +24,8 @@ const Navbar = () => {
        >Bengal Lumineries</Link>
     </div>   
     
-    <ul className="flex flex-row gap-4 items-center">      
+   { /* Desktop Navigation bar. */}
+    <ul className="hidden md:flex flex-row gap-4 items-center">      
       
       <Navlink
        href ="/"
@@ -47,11 +48,38 @@ const Navbar = () => {
        >About</Navlink>      
             
     </ul>
+
+    {/* Mobile Navigation bar. */}
+    <ul className="hidden flex-col !text-2xl absolute top-7 bg-gray-800 w-[100%] z-1 opacity-80 items-center gap-4 h-screen">
+      
+      <Navlink
+       href ="/"
+       isActive={pathname ==="/"}
+       >Home</Navlink>
+      <Navlink href ="/People"
+       isActive={pathname ==="/People"}
+       >People</Navlink>
+      <Navlink href ="/Culture"
+       isActive={pathname ==='/Culture'}
+       >Culture</Navlink>
+      <Navlink href ="/Tourism"
+       isActive={pathname ==='/Tourism'}
+       >Tourism</Navlink>
+      <Navlink href ="/LearnLanguage"
+       isActive={pathname ==='/LearnLanguage'}
+       >Language</Navlink>
+      <Navlink href ="/About"
+       isActive={pathname ==='/About'}
+       >About</Navlink>      
+            
+    </ul>
+    <div className="hidden md:block">
     <ClientOnly fallback={<Skeleton boxSize="8" />}>
       <IconButton onClick={toggleColorMode} variant="outline" size="sm">
         {colorMode == "light" ? <LuSun /> : <LuMoon />}
       </IconButton>
     </ClientOnly>
+    </div>
     </nav>
   )
 }

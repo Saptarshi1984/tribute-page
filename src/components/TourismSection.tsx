@@ -16,10 +16,10 @@ const images = [
 
 const TourismSection = () => {
   return (
-    <div>
-        <div className='w-auto !flex flex-col gap-4 !justify-around items-center h-screen'>
-        <h1 className='!text-8xl'>Places you must visit.</h1>
-        <p className='w-[50%] !text-2xl text-gray-400 text-justify '>West Bengal offers a rich tapestry of 
+
+        <div className='w-auto !flex flex-col !justify-around items-center h-screen'>
+        <h1 className='!text-4xl sm:!text-8xl'>Places you must visit.</h1>
+        <p className='w-100 sm:w-[50%] !text-2xl text-gray-400 text-justify !mx-4'>West Bengal offers a rich tapestry of 
             tourist destinations that reflect its deep cultural heritage and historical legacy. From the 
             colonial charm of Kolkata with its grand architecture and literary past, to the spiritual serenity 
             of Kalimpong and Darjeeling nestled in the Himalayas, Bengal has something for every traveler. The 
@@ -29,7 +29,8 @@ const TourismSection = () => {
             Durga Puja celebrations or the peaceful riverine landscapes of Murshidabad and Malda, Bengal’s 
             tourist spots offer an immersive journey into the soul of Bengal’s history, art, and spiritual 
             essence.</p>
-
+            
+            <div className='w-100 sm:w-[100%]'>
             <Box w="1200px" h='auto'  mx="auto" mt={10} overflow='hidden'>
                   <Swiper
                     modules={[Autoplay]}
@@ -46,13 +47,9 @@ const TourismSection = () => {
                     ))}
                   </Swiper>
                 </Box>
-
+              </div>
                 <ButttonPrimary btnText='Explore Places' src='/Tourism' />
         </div>
-
-        
-      
-    </div>
   )
 }
 

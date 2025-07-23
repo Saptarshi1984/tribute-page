@@ -17,10 +17,10 @@ export default function Navlink({href, children, isActive}: NavlinkProps) {
     
     return (  
         
-           <li className="list-none hover:text-amber-300">
+           <li className="list-none hover:text-amber-300 ">
              <Link 
              href={href}
-             className={`${isActive ? '!text-amber-500' : ''}`}
+             className={`${isActive ? '!text-amber-500 !p-2 !text-md' : '!p-2 !text-md'}`}
              >
              {children}
              </Link>

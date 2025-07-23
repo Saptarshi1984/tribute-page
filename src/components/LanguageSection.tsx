@@ -4,16 +4,16 @@ import ButttonPrimary from './ButttonPrimary'
 
 const LanguageSection = () => {
   return (
-    <div>
+
         <div className='w-auto !flex flex-col gap-6 !justify-around items-center h-screen'>
-        <h1 className='!text-8xl'>A Rich Language </h1>
+        <h1 className='!text-4xl sm:!text-8xl'>A Rich Language </h1>
         <Image 
          src='/oth/learn_bengali.png'
          alt='learn_bengali'
          width={400}
          height={600}
           />
-        <p className='w-[50%] !text-2xl text-gray-400 text-justify '>The Bengali language, with its lyrical 
+        <p className='w-auto sm:w-[50%] sm:!text-2xl text-gray-400 text-justify !mx-4'>The Bengali language, with its lyrical 
           beauty and expressive depth, is a gateway to a vast ocean of literature, music, and cultural wisdom. 
           As the mother tongue of legends like Rabindranath Tagore, Kazi Nazrul Islam, and Satyajit Ray, Bengali 
           carries within it a tradition of poetic brilliance, revolutionary thought, and profound humanism. 
@@ -30,7 +30,7 @@ const LanguageSection = () => {
 
         
       
-    </div>
+
   )
 }
 

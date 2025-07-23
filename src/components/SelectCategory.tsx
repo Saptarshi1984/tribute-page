@@ -1,36 +1,33 @@
 "use client"
-import { Portal, Select, createListCollection } from "@chakra-ui/react"
+
 import { useState } from "react"
+import {
+  createListCollection,
+  type ListCollection,
+  type CollectionItem,
+  Portal,
+  Select,
+} from "@chakra-ui/react"
 
-const frameworks = createListCollection({
-  items: [
-    { label: "All", value: "all" },
-    { label: "Literature & Arts", value: "literature" },
-    { label: "Science & Innovations", value: "science & innovations" },
-    { label: "Cinema & Culture", value: "cinema & culture" },
-    { label: "Spirituality", value: "spirituality" },
-    { label: "Freedom Fighter", value: "freedom fighter" },
-    { label: "Global Achivers", value: "globalachivers" },
-    { label: "Law & Justice", value: "law & justice" },
-    { label: "Social Reformer", value: "social reformer" },
-  ],
-})
 
-  interface SelectCategoryProps {
-  value: string[];
-  onChange: (val: string[]) => void;
+
+
+interface SelectCategoryProps {
+  value: string[]
+  onChange: (val: string[]) => void
+  collection: ListCollection<CollectionItem>
 }
 
 
-const SelectCategory = ({value, onChange}:SelectCategoryProps) => {
+const SelectCategory = ({value, onChange, collection}:SelectCategoryProps) => {
 
   const [selected, setSelected] = useState<string[]>(['all']);
 
   return (
 
         <Select.Root               
-        size="sm" width="320px"
-        collection={frameworks}        
+        size="sm" minW="320px"
+        collection={collection}        
         value={selected}
         defaultValue={['all']}
         onValueChange={(e) => {setSelected(e.value);
@@ -49,9 +46,9 @@ const SelectCategory = ({value, onChange}:SelectCategoryProps) => {
       <Portal>
         <Select.Positioner>
           <Select.Content>
-            {frameworks.items.map((framework) => (
-              <Select.Item item={framework} key={framework.value}>
-                {framework.label}
+            {collection.items.map((item) => (
+              <Select.Item item={item} key={item.value}>
+                {item.label}
                 <Select.ItemIndicator />
               </Select.Item>
             ))}

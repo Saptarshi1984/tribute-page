@@ -2,9 +2,25 @@
 
 import React, { useState } from 'react'
 import ProfileCard from './ProfileCard';
-import { SimpleGrid } from '@chakra-ui/react';
+import { createListCollection, SimpleGrid } from '@chakra-ui/react';
 import SelectCategory from './SelectCategory';
 import SearchBar from './SearchBar';
+
+const peopleCategories = createListCollection({
+      
+    items: [
+    { label: "All", value: "all" },
+    { label: "Literature & Arts", value: "literature" },
+    { label: "Science & Innovations", value: "science & innovations" },
+    { label: "Cinema & Culture", value: "cinema & culture" },
+    { label: "Spirituality", value: "spirituality" },
+    { label: "Freedom Fighter", value: "freedom fighter" },
+    { label: "Global Achivers", value: "globalachivers" },
+    { label: "Law & Justice", value: "law & justice" },
+    { label: "Social Reformer", value: "social reformer" },
+  ]
+
+})
 
 
 interface luminariesDataProps {
@@ -31,14 +47,16 @@ const PeopleClientWrapper = ({luminariesData}:PeopleClientWrapperProps) => {
   return (
 
     <div className='flex flex-col justify-center items-center !my-10'>
-
-    <div className='w-[65%] flex flex-row justify-between items-center'>
-      <SelectCategory value={selected} onChange={setSelected} />
-      {/* <SearchBar /> */}
+    <div>
+      <SelectCategory  value={selected} onChange={setSelected} collection={peopleCategories} />
     </div>
     <div className='w-auto'>
-    <SimpleGrid columns={[4]} gap={10} p={4} className='w-auto m-auto'>
-       { filteredLuminaries.map((model, i) => (
+    <SimpleGrid 
+    columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }}  
+    gap={10} 
+    p={4} 
+    className='w-auto m-auto '>
+       { filteredLuminaries.map((model) => (
       
        <ProfileCard
        key = {model.id}

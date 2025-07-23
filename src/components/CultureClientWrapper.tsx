@@ -23,9 +23,13 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
 
       <div  className='flex flex-col justify-center items-center !my-10'>
       
-      <div className='w-[65%]'>
-      <Heading>Festivals</Heading>
-      <SimpleGrid columns={[4]} gap={10} p={4} className='w-auto m-auto'>
+      <div className='w-auto'>
+      <Heading className='!mx-4 !text-4xl'>Festivals</Heading>
+      <SimpleGrid 
+      columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }}  
+      gap={10} 
+      p={4} 
+      className='w-auto m-auto'>
       {cultureData.filter(type => type.Category == 'festivals').map((model) => (          
        <DisplayCard 
         key={model.id}
@@ -37,9 +41,13 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
       </SimpleGrid>
       </div>
 
-      <div className='w-[65%]'>
-        <Heading>Music</Heading>
-      <SimpleGrid columns={[4]} gap={10} p={4} className='w-auto m-auto'>
+      <div className='w-auto'>
+        <Heading className='!mx-4 !text-4xl'>Music</Heading>
+      <SimpleGrid 
+      columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }} 
+      gap={10} 
+      p={4} 
+      className='w-auto m-auto'>
       {cultureData.filter(type => type.Category == 'music').map((model) => (          
        <DisplayCard 
         key={model.id}
@@ -51,9 +59,12 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
       </SimpleGrid>
       </div>
 
-      <div className='w-[65%]'>
-        <Heading>Cousines</Heading>
-      <SimpleGrid columns={[4]} gap={10} p={4} className='w-auto m-auto'>
+      <div className='w-auto'>
+        <Heading className='!mx-4 !text-4xl'>Cousines</Heading>
+      <SimpleGrid columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }} 
+      gap={10} 
+      p={4} 
+      className='w-auto m-auto'>
       {cultureData.filter(type => type.Category == 'food').map((model) => (          
        <DisplayCard 
         key={model.id}

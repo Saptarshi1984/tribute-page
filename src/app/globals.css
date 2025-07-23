@@ -1,6 +1,22 @@
 @import "tailwindcss";
 
 
+#bengalText {
+  background: linear-gradient(270deg, blue, red);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateGradient 5s ease infinite;
+}
 
-
-
+@keyframes animateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

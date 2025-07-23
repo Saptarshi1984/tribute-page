@@ -3,7 +3,6 @@ import React from 'react'
 import { Card, Text, AspectRatio } from "@chakra-ui/react";
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import ButttonPrimary from './ButttonPrimary';
 
 

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Input, InputGroup, Kbd } from "@chakra-ui/react"
 import { LuSearch } from "react-icons/lu"
-import { SearchParams } from 'next/dist/server/request/search-params'
 
 
 const SearchBar = () => {
