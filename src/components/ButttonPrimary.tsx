@@ -18,7 +18,7 @@ const ButttonPrimary = ({btnText, src}: ButtonPrimaryProps) => {
   return (
 
     <div>
-         <Button loading={loading} onClick={() => {setLoading(!loading); router.push(src)}}>
+         <Button colorPalette={'teal'} variant={'outline'} loading={loading} onClick={() => {setLoading(!loading); router.push(src)}}>
             {btnText}
         </Button>      
     </div>

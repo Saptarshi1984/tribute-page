@@ -12,8 +12,8 @@ interface ProfileCardProps {
   cardImageURL:string;  
   name: string;
   description: string;
-  category: string;
-  slug: string;
+  category?: string;
+  slug?: string;
 }
 
 const ProfileCard = ({cardImageURL, name, description, category, slug }:ProfileCardProps) => {

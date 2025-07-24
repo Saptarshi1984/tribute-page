@@ -6,7 +6,7 @@ import DisplayCard from '@/components/DisplayCard';
 
 interface cultureDataProps {
   id:number
-  CultureName: string
+  CultureName: string 
   CultureImage: string
   CultureText: string
   Category: string
@@ -24,7 +24,7 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
       <div  className='flex flex-col justify-center items-center !my-10'>
       
       <div className='w-auto'>
-      <Heading className='!mx-4 !text-4xl'>Festivals</Heading>
+      <Heading className='!mx-4 !text-4xl text-center md:!text-left'>Festivals</Heading>
       <SimpleGrid 
       columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }}  
       gap={10} 
@@ -42,7 +42,7 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
       </div>
 
       <div className='w-auto'>
-        <Heading className='!mx-4 !text-4xl'>Music</Heading>
+        <Heading className='!mx-4 !text-4xl text-center md:!text-left'>Music</Heading>
       <SimpleGrid 
       columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }} 
       gap={10} 
@@ -60,7 +60,7 @@ const CultureClientWrapper = ({cultureData}: CultureClientDataProps)  => {
       </div>
 
       <div className='w-auto'>
-        <Heading className='!mx-4 !text-4xl'>Cousines</Heading>
+        <Heading className='!mx-4 !text-4xl text-center md:!text-left'>Cousines</Heading>
       <SimpleGrid columns={{ base: 1, sm: 1, md: 2, lg: 3, xl:4  }} 
       gap={10} 
       p={4} 
